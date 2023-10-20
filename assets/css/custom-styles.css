@@ -1,3 +1,35 @@
+/*Animation Bat*/
+
+header{
+  position: relative;
+}
+
+#bat{
+  position: absolute;
+  top: 50%;
+  left: -200px;
+  animation: bat ease 5s;
+}
+@keyframes bat{
+  0%{
+    top:50%;
+    left:-200px;
+  }
+  25%{
+    top:70%;
+    left:200px;
+  }
+  50%{
+    top:40%;
+    left:300px;
+  }
+  100%{
+    top:0%;
+    left:2200px;
+  }
+}
+
+/*End animation bat*/
 .contact-form {
   background: linear-gradient(
     to bottom,
