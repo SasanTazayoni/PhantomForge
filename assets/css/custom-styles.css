@@ -1,33 +1,32 @@
 /*Animation Bat*/
 
-header{
+header {
   position: relative;
 }
 
-#bat{
+#bat {
   position: absolute;
   top: 50%;
   left: -200px;
-  transform:rotate3d(100deg);
+  transform: rotate3d(100deg);
   animation: bat ease-in-out 5s;
-  
 }
-@keyframes bat{
-  100%{
-    top:50%;
-    left:-200px;
+@keyframes bat {
+  100% {
+    top: 50%;
+    left: -200px;
   }
-  50%{
-    top:70%;
-    left:200px;
+  50% {
+    top: 70%;
+    left: 200px;
   }
-  25%{
-    top:40%;
-    left:800px;
+  25% {
+    top: 40%;
+    left: 800px;
   }
-  0%{
-    top:70%;
-    left:2200px;
+  0% {
+    top: 70%;
+    left: 2200px;
   }
 }
 
@@ -68,12 +67,7 @@ header{
   padding: 30px 0;
   width: 100%;
 }
-/* 
-.social-networks h2 {
-  font-size: 150%;
-  font-weight: 600;
-  padding: 30px;
-} */
+
 .social-networks ul {
   padding: 0;
   list-style-type: none;
@@ -87,14 +81,6 @@ header{
   font-size: 200%;
   margin-right: 20px;
 }
-
-/* .social-networks li {
-  list-style-type: none;
-  display: inline-block;
-  margin-right: 20px;
-  padding: 0;
-  font-size: 200%;
-} */
 
 .social-networks a {
   color: #ebaf66;
