@@ -61,10 +61,16 @@ header {
   /* position: fixed; */
 }
 
+.footer-container {
+  display: flex;
+}
+
 .social-networks {
-  text-align: center;
+  display: flex;
+  justify-content: center;
   margin: 0;
-  padding: 30px 0;
+  padding-top: 30px;
+  padding-bottom: 5px;
   width: 100%;
 }
 
@@ -73,6 +79,7 @@ header {
   list-style-type: none;
   display: flex;
   justify-content: center;
+  margin: 0;
 }
 
 .social-networks li {
@@ -86,8 +93,30 @@ header {
   color: #ebaf66;
 }
 
+.footer-content-container {
+  display: flex;
+  align-items: center;
+}
+
+.footer-credits {
+  color: #ebaf66;
+  padding-right: 20px;
+  margin-bottom: 10px;
+}
+
 /* ======== Media queries ======== */
 /* Small devices (portrait tablets and large phones, 600px and up) */
+@media screen and (max-width: 428px) {
+    .footer-content-container {
+      flex-direction: column;
+    }
+
+    .footer-credits {
+      padding: 0;
+      margin: 0;
+    }
+}
+
 @media only screen and (min-width: 600px) {
 }
 
