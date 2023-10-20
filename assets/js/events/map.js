@@ -18,7 +18,6 @@ async function initMap() {
     content: "a",
     disableAutoPan: true,
   });
-  
 
   const markers = [
     {
