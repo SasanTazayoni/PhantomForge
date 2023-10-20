@@ -1,0 +1,60 @@
+.contact-form {
+  background-color: black;
+  color: #6c757d;
+}
+
+/* ======== Footer ======== */
+.footer-img {
+  background-image: url("/PhantomForge/assets/img/footer-pumpkins.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  min-height: 150px;
+}
+.social-networks {
+  grid-area: 2/1 / span 2/-1;
+  font-family: var(--h1-font);
+  text-align: center;
+  margin: 0;
+  padding: 30px 0;
+}
+
+.social-networks h2 {
+  font-size: 150%;
+  font-weight: 600;
+  padding: 30px;
+}
+
+.social-networks li {
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 20px;
+  padding: 0;
+  font-size: 200%;
+}
+
+/* ======== Media queries ======== */
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .footer-img {
+    min-height: 200px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .footer-img {
+    min-height: 250px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .footer-img {
+    min-height: 300px;
+  }
+}
