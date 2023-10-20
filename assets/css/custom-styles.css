@@ -1,0 +1,118 @@
+/*Animation Bat*/
+
+header {
+  position: relative;
+}
+
+#bat {
+  position: absolute;
+  top: 50%;
+  left: -200px;
+  transform: rotate3d(100deg);
+  animation: bat ease-in-out 5s;
+}
+@keyframes bat {
+  100% {
+    top: 50%;
+    left: -200px;
+  }
+  50% {
+    top: 70%;
+    left: 200px;
+  }
+  25% {
+    top: 40%;
+    left: 800px;
+  }
+  0% {
+    top: 70%;
+    left: 2200px;
+  }
+}
+
+/*End animation bat*/
+.contact-form {
+  background: linear-gradient(
+    to bottom,
+    #000000 0%,
+    #000000 50%,
+    #ff8c00 100%
+  );
+  background-image: url("/assets/img/skulls.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  padding-bottom: 0;
+  color: #fff;
+}
+
+.dark-text {
+  color: #333333;
+}
+
+/* ======== Footer ======== */
+.footer-img {
+  background-color: transparent;
+  background-image: url("../img/footer-pumpkins.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  min-height: 150px;
+  /* position: fixed; */
+}
+
+.social-networks {
+  text-align: center;
+  margin: 0;
+  padding: 30px 0;
+  width: 100%;
+}
+
+.social-networks ul {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+.social-networks li {
+  margin: 0 auto;
+  padding: 0;
+  font-size: 200%;
+  margin-right: 20px;
+}
+
+.social-networks a {
+  color: #ebaf66;
+}
+
+/* ======== Media queries ======== */
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .footer-img {
+    min-height: 200px;
+  }
+  .contact-form {
+    background-image: url("/assets/img/contact-form-img.jpg");
+    background-size: cover;
+    background-position: right;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .footer-img {
+    min-height: 250px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .footer-img {
+    min-height: 350px;
+  }
+}
