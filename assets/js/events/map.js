@@ -15,7 +15,7 @@ async function initMap() {
   });
 
   const infoWindow = new google.maps.InfoWindow({
-    content: "a",
+    content: "",
     disableAutoPan: true,
   });
 
@@ -52,7 +52,6 @@ async function initMap() {
       infoWindow.open(map, marker);
     });
   });
-
 }
 
 initMap();
