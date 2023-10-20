@@ -1,15 +1,19 @@
 .contact-form {
-  background-color: black;
-  color: #6c757d;
+  background: linear-gradient(
+    to bottom,
+    #000000 0%,
+    #000000 60%,
+    #ff8c00 100%
+  );
 }
-
 /* ======== Footer ======== */
 .footer-img {
-  background-image: url("/PhantomForge/assets/img/footer-pumpkins.jpg");
+  background-image: url("/PhantomForge/assets/img/footer-pumpkins.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
   min-height: 150px;
+  background-color: #ff8c00;
 }
 .social-networks {
   grid-area: 2/1 / span 2/-1;
