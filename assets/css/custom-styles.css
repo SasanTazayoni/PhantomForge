@@ -8,23 +8,25 @@ header{
   position: absolute;
   top: 50%;
   left: -200px;
-  animation: bat ease 5s;
+  transform:rotate3d(100deg);
+  animation: bat ease-in-out 5s;
+  
 }
 @keyframes bat{
-  0%{
+  100%{
     top:50%;
     left:-200px;
   }
-  25%{
+  50%{
     top:70%;
     left:200px;
   }
-  50%{
+  25%{
     top:40%;
-    left:300px;
+    left:800px;
   }
-  100%{
-    top:0%;
+  0%{
+    top:70%;
     left:2200px;
   }
 }
