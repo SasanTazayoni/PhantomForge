@@ -39,15 +39,23 @@
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="assets/css/styles.css" rel="stylesheet" />
     <link href="assets/css/custom-styles.css" rel="stylesheet" />
+
+    <!--Google Maps-->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script type="module" src="assets/js/events/map.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/events.css" />
+    <link href="assets/css/user.css" rel="stylesheet" />
+
   </head>
-  <body id="page-top">
+  
+  <body >
     <!-- Navigation-->
     <nav
       class="navbar navbar-expand-lg navbar-light fixed-top py-3"
       id="mainNav"
     >
       <div class="container px-4 px-lg-5">
-        <a class="navbar-brand" href="#page-top">Start Bootstrap</a>
+        <a class="navbar-brand text-dark">Start Bootstrap</a>
         <button
           class="navbar-toggler navbar-toggler-right"
           type="button"
@@ -62,102 +70,44 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ms-auto my-2 my-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
+              <a class="nav-link text-dark" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="events.html">Events</a>
+              <a class="nav-link text-dark" href="events.html">Events</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="gallery.html">Gallery</a>
+              <a class="nav-link text-dark" href="gallery.html">Gallery</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
+            <li class="nav-item ">
+              <a class="nav-link text-dark" href="contact.html">Contact</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <!-- About-->
-    <section class="page-section bg-primary" id="about">
+    <!-- Map-->
+    <section class="page-section bg-light">
       <div class="container px-4 px-lg-5">
-        <div class="row gx-4 gx-lg-5 justify-content-center">
-          <div class="col-lg-8 text-center">
-            <h2 class="text-white mt-0">We've got what you need!</h2>
-            <hr class="divider divider-light" />
-            <p class="text-white-75 mb-4">
-              Start Bootstrap has everything you need to get your new website
-              up and running in no time! Choose one of our open source, free to
-              download, and easy to use themes! No strings attached!
-            </p>
-            <a class="btn btn-light btn-xl" href="#services">Get Started!</a>
+        <div class="row">
+          <div class="col-6 col-md-4 mx-auto ">
+            <div class="custom-div text-center">
+              <h2 class="text-dark font-weight-bold">FIND YOUR</h2>
+              <h2 class="text-dark font-weight-normal">EVENT</h2>
+              <p class="text-dark">Big company announcement
+                or simple sub-header taking two
+                or more lines.
+              </p>
+            </div> 
+          </div> 
           </div>
         </div>
       </div>
     </section>
-    <!-- Services-->
-    <section class="page-section" id="services">
-      <div class="container px-4 px-lg-5">
-        <h2 class="text-center mt-0">At Your Service</h2>
-        <hr class="divider" />
-        <div class="row gx-4 gx-lg-5">
-          <div class="col-lg-3 col-md-6 text-center">
-            <div class="mt-5">
-              <div class="mb-2"><i class="bi-gem fs-1 text-primary"></i></div>
-              <h3 class="h4 mb-2">Sturdy Themes</h3>
-              <p class="text-muted mb-0">
-                Our themes are updated regularly to keep them bug free!
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 text-center">
-            <div class="mt-5">
-              <div class="mb-2">
-                <i class="bi-laptop fs-1 text-primary"></i>
-              </div>
-              <h3 class="h4 mb-2">Up to Date</h3>
-              <p class="text-muted mb-0">
-                All dependencies are kept current to keep things fresh.
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 text-center">
-            <div class="mt-5">
-              <div class="mb-2">
-                <i class="bi-globe fs-1 text-primary"></i>
-              </div>
-              <h3 class="h4 mb-2">Ready to Publish</h3>
-              <p class="text-muted mb-0">
-                You can use this design as is, or you can make changes!
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 text-center">
-            <div class="mt-5">
-              <div class="mb-2">
-                <i class="bi-heart fs-1 text-primary"></i>
-              </div>
-              <h3 class="h4 mb-2">Made with Love</h3>
-              <p class="text-muted mb-0">
-                Is it really open source if it's not made with love?
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    <div id="map"></div>
 
-    <!-- Call to action-->
-    <section class="page-section bg-dark text-white">
-      <div class="container px-4 px-lg-5 text-center">
-        <h2 class="mb-4">Free Download at Start Bootstrap!</h2>
-        <a
-          class="btn btn-light btn-xl"
-          href="https://startbootstrap.com/theme/creative/"
-          >Download Now!</a
-        >
-      </div>
-    </section>
+
+ 
 
     <!-- Footer-->
     <footer class="bg-light py-5">
@@ -178,5 +128,10 @@
     <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
     <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
     <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+
+    <script>(g=>{var h,a,k,p="The Google Maps JavaScript API",c="google",l="importLibrary",q="__ib__",m=document,b=window;b=b[c]||(b[c]={});var d=b.maps||(b.maps={}),r=new Set,e=new URLSearchParams,u=()=>h||(h=new Promise(async(f,n)=>{await (a=m.createElement("script"));e.set("libraries",[...r]+"");for(k in g)e.set(k.replace(/[A-Z]/g,t=>"_"+t[0].toLowerCase()),g[k]);e.set("callback",c+".maps."+q);a.src=`https://maps.${c}apis.com/maps/api/js?`+e;d[q]=f;a.onerror=()=>h=n(Error(p+" could not load."));a.nonce=m.querySelector("script[nonce]")?.nonce||"";m.head.append(a)}));d[l]?console.warn(p+" only loads once. Ignoring:",g):d[l]=(f,...n)=>r.add(f)&&u().then(()=>d[l](f,...n))})
+      ({key: "AIzaSyDMLCXmRGoN-2pjczNVMUZSQxcq8YvLaa4", v: "beta"});
+    </script>
+      
   </body>
 </html>
