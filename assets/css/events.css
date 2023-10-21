@@ -6,11 +6,11 @@ h2 {
   font-family: Creepster;
   color:#39FF14;
   font-size: 60px;
+  transition: all 0.3s;
 }
 h2:hover {
   filter: drop-shadow(0 0 10px #39ff14) 
-          drop-shadow(0 0 20px #39ff14) 
-          drop-shadow(0 0 40px #39ff14);
+          drop-shadow(0 0 20px #39ff14);
 }
 p {
   font-family: 'Signika Negative';
