@@ -58,8 +58,7 @@ GALLERY
 
 .img-gallery:hover{
   transform:scale(1.05);
-  filter: drop-shadow(0 0 5px #ff8c00)
-          drop-shadow(0 0 10px #ff8c00);
+  filter: drop-shadow(0 0 8px #39ff14);
 }
 
 /* Carousel */
