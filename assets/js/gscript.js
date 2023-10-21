@@ -34,6 +34,20 @@ function closeCarousel() {
     $('#img-grid').css('display', 'block');
     $('#carousel').css('display', 'none');
 }
+// document.querySelectorAll(".image-holder > div > img").forEach(img => img.addEventListener("click", getSrc, false));
+
+// let images = document.querySelectorAll(".carousel-inner > div > img").forEach(img => console.log(img.src);
+
+// for (img of images) {
+//     console.log(img.src);
+// }
+
+// function getSrc() {
+//     alert("Hej");
+//     return this.src;
+// }
+
+// console.log(image);
 
 // ----EVENT LISTENERS
 $('#switch').click(function () {
@@ -45,8 +59,28 @@ $('#switch').click(function () {
     }
 });
 
+// function to get src of carouse images
+function imgFind() {
+    var imgs = document.querySelectorAll(".carousel-inner > div > img");
+    var imgSrcs = [];
+    
+    for (var i = 0; i < imgs.length; i++) {
+        imgSrcs.push(imgs[i].src);
+    }
+
+    return imgSrcs;
+}
+
 $('.img-gallery').click(function () {
     activateCarousel();
+    let image = this.src;
+    let srcs = imgFind();
+    for (src of srcs) {
+        if (src == image) {
+            // alert("Hej");
+            // $('img').parent().addClass("active");
+        }
+    }
 });
 
 addEventListener("resize", () => {
