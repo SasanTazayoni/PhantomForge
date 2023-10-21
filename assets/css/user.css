@@ -17,6 +17,7 @@ GALLERY
   background-size: cover;
   height: 100%;
   width: 100%;
+  overflow: auto;
 }
 
 /* Gallery title */
@@ -71,6 +72,13 @@ GALLERY
   transform:scale(1.05);
 }
 
+/* Carousel */
+
+#carousel {
+  display: none;
+  width: 60%;
+}
+
 
 /* ----------------------------
 MEDIA QUERIES
@@ -81,5 +89,9 @@ MEDIA QUERIES
   #gallery-bg {
     /* background-image: none; */
     background: linear-gradient(rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.7) 100%), url(../img/gallery.jpg);
+  }
+
+  #carousel {
+    width: 90%;
   }
 }
