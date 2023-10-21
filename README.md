@@ -2,7 +2,10 @@
 
 # PhantomForge
 
-A Halloween Hackathon
+# WITCHWAY TRACKER
+
+Our app is designed so that users can find events related to Halloween, it has an easy-to-use interface with a gallery of costumes which users can use as inspiration for their costumes. We also have a form for you to share your horror stories on our social networks
+
 
 
 # Table of contents
@@ -63,6 +66,9 @@ Main colours used in a project:
 * link color: #FF6100
 * Details: #333333
 * Details: #000000
+* Details:#39ff14
+
+![Colors](./assets/img/wireframes/color.png)
 
 ### Fonts 
 
@@ -88,6 +94,8 @@ The website has below features:
 
 * #### Navigation bar is visible on the top of each website. It is responsive and will adapt to mobile devices by a change into a burger menu.
 
+![Menu](./assets/img/screenshoots/menu.jpg)
+
 * Navigation scheme:
     * On left side there is a Website name. It can be used as navigation link to the main page.
     * On right side there are four links or burger menu. It contains:
@@ -106,16 +114,8 @@ The website has below features:
 
     * Big header whit Hallowen animation, It has the Name of the Website and a button link to the events page
 
-* ### Info Hallowin section
+![Hero home page](./assets/img/screenshoots/Macbook%20Pro-1697914876350.jpeg)
 
-    * This section contains information about why we celebrate Halloween, where it started etc.
-
-* ### Gallery section
-
-    * This part has a silder with some of the gallery images 
-
-* ### Horror Stories section
-    * This section has some short terrifying stories
 
 ## Events
 
@@ -200,8 +200,6 @@ The website has below features:
 
  We used Mozilla web developer tools and Chrome developer tools throughout the project for testing and solving problems with responsiveness and style issues.
  
- [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB) extension to chrome browser was very helpful.
-
 
 ## Compatibility testing
  Site was tested across multiple virtual mobile devices and browsers. I checked all supported devices in both Mozilla web developer tolls and Chrome developer tools. 
@@ -217,6 +215,11 @@ The website has below features:
  * [<span style="color:#ff6100">JavaScript validator](https://esprima.org/demo/validate.html) to test JavaScript
 
 ## Testing user stories (how user stories are satisfied)
+
+* The application is intuitive and easy to use
+* As a Users easily find the information they are looking for about events
+* As a user I have a gallery that helps me with inspiration for my costume
+
 
 ## Lighthouse testing
 
@@ -259,3 +262,6 @@ https://www.pexels.com/photo/decoration-made-with-human-skulls-4997839/ (skull -
 
 
 ## screenshots
+
+![Home](./assets/img/screenshoots/Macbook%20Pro-1697914876350.jpeg)
+![Home ipad 12](./assets/img/screenshoots/iPad-1697914876389.jpeg)
