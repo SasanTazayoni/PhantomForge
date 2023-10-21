@@ -2,6 +2,9 @@
  body {
   background-color:#090A0B;
 }
+h2 {
+  font-family: Creepster;
+}
  #map {
     height: 100%;
     width: 80%;
