@@ -261,11 +261,10 @@ MEDIA Query
 --------------------------------------------*/
 
 /* Small devices (portrait tablets and large phones, 400px and down) */
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 376px) {
   .footer-credits {
     color: #39ff14;
     display: block;;
-
   }
 
   .footer-credits p {
@@ -276,18 +275,13 @@ MEDIA Query
   .footer-icon i {
     transition: all 0.5s;
     color: #39ff14;
-    opacity: 0.8;
-    font-size: 15px;
-  
+    opacity: 0.8; 
   }
 
   .social-networks ul {
-    padding: 0;
     list-style-type: none;
     display: flex;
     justify-content: center;
-    margin: 0;
-    gap: 5px;
   }
 
   .hero-section .container {
