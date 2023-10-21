@@ -33,8 +33,6 @@ Have a sp00ktacular time using "Witchway Tracker" and make the most of the Hallo
 ![Screenshot of responsiveness](documentation/responsive.png)
 
 # Table of contents
-- [<span style="color:#ff6100">Intro with SS from amiresponsive](#Intro-with-SS-from-amiresponsive)
-
 - [<span style="color:#ff6100">UX](#ux)
 
     - [<span style="color:#ff6100">Website owner business goals](#website-owner-business-goals) 
@@ -50,11 +48,6 @@ Have a sp00ktacular time using "Witchway Tracker" and make the most of the Hallo
 - [<span style="color:#ff6100">Deployment](#deployment)
 - [<span style="color:#ff6100">Credits](#credits)
 - [<span style="color:#ff6100">Screenshots](#screenshots)
-
-
-# Intro with SS from amiresponsive
-
-The wireframes do not fully correspond with the end product due to multiple changes made throughout the production phase.
 
 
 # UX
