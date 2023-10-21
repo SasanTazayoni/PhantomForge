@@ -103,6 +103,11 @@ body {
   }
 }
 
+#hero-title {
+  color: #39ff14 !important;
+  margin-bottom: 20px !important;
+}
+
 header {
   position: relative;
 }
