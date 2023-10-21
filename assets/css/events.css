@@ -1,10 +1,43 @@
-/* 
- * Always set the map height explicitly to define the size of the div element
- * that contains the map. 
- */
+
+ body {
+  background-color:#090A0B;
+}
  #map {
     height: 100%;
     width: 80%;
     left: 10%;
+    border-radius: 5px;
   }
+  @media screen and (max-width: 720px) {
+    #map {
+      height: 100%;
+      width: 100%;
+      left: 0;
+    }
+  }
+ 
+  .glow {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 42px #39FF14, 0 0 82px #39FF14,0 0 92px #39FF14;
+    color: white;
+  }
+  .relative-position {
+    position: relative;
+  }
+  
+  .overlay-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:auto;
+    object-fit: cover; 
+    opacity: 0.5; 
+    z-index: -1; 
+  }
+
+
+  
+  
+  
+  
   

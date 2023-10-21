@@ -44,9 +44,9 @@
     <!--Google Maps-->
     <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
     <script type="module" src="assets/js/events/map.js"></script>
+    <!--Styles-->
     <link rel="stylesheet" type="text/css" href="assets/css/events.css" />
     <link href="assets/css/user.css" rel="stylesheet" />
-
   </head>
   
   <body >
@@ -56,6 +56,7 @@
       id="mainNav"
     >
       <div class="container px-4 px-lg-5">
+
         <a class="navbar-brand text-dark">Haunted Hackers</a>
         <button
           class="navbar-toggler navbar-toggler-right"
@@ -71,41 +72,42 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ms-auto my-2 my-lg-0">
             <li class="nav-item">
-              <a class="nav-link text-dark" href="index.html">Home</a>
+              <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-dark" href="events.html">Events</a>
+              <a class="nav-link" href="events.html">Events</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-dark" href="gallery.html">Gallery</a>
+              <a class="nav-link" href="gallery.html">Gallery</a>
             </li>
             <li class="nav-item ">
-              <a class="nav-link text-dark" href="contact.html">Contact</a>
+              <a class="nav-link" href="contact.html">Contact</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <!-- Map-->
-    <section class="page-section bg-light">
+    <!-- header-->
+    <section class="page-section relative-position">
       <div class="container px-4 px-lg-5">
         <div class="row">
           <div class="col-6 col-md-4 mx-auto ">
             <div class="custom-div text-center">
-              <h2 class="text-dark font-weight-bold">FIND YOUR</h2>
-              <h2 class="text-dark font-weight-normal">EVENT</h2>
-              <p class="text-dark">Big company announcement
-                or simple sub-header taking two
-                or more lines.
+              <h2 class=" glow font-weight-bold">FIND YOUR</h2>
+              <h2 class="glow font-weight-normal">EVENT</h2>
+              <p class="text-light">Where are you going for halloween? Find intresting events in Dublin in the map below.
               </p>
+              <a class="text-light" href="gallery.html">Check our gallery for costume inspiration.</a>
             </div> 
           </div> 
           </div>
+          <img src="assets/img/eventPage/dark.jpg" class="overlay-image" alt="Overlay Image">
         </div>
       </div>
     </section>
-    <div id="map"></div>
+    <!-- Map-->
+    <div class='bg-dark'id="map"></div>
 
 
  
