@@ -2,11 +2,11 @@
 // -------CAROUSEL CONTROLS -----
 function removeStcikyFooter() {
     let ww = document.body.clientWidth;
-    let showcase = document.getElementById("carousel");
+    let carousel = document.getElementById("carousel");
     if (ww > 768) {
         $('footer').removeClass('fixed-bottom');
-    } else if (showcase.style.display === "block" && ww < 768) {
-        $('.footer-img').addClass('fixed-bottom');  
+    } else if (carousel.style.display === "block" && ww < 768) {
+        $('.footer-img').addClass('fixed-bottom');
     } else {
         $('footer').removeClass('fixed-bottom');
     }
@@ -26,22 +26,34 @@ function activateCarousel() {
     $('#carousel').css('display', 'block');
     if (ww < 768) {
         $('.footer-img').addClass('fixed-bottom');
-    } 
+    }
+}
+
+// Function to switch off carousel
+function closeCarousel() {
+    $('#img-grid').css('display', 'block');
+    $('#carousel').css('display', 'none');
 }
 
 // ----EVENT LISTENERS
 $('#switch').click(function () {
-    activateCarousel();
+    let carousel = document.getElementById("carousel");
+    if (carousel.style.display === "block") {
+        closeCarousel();
+    } else {
+        activateCarousel();
+    }
 });
 
 $('.img-gallery').click(function () {
-    activateCarousel()
-})
+    activateCarousel();
+});
 
 addEventListener("resize", () => {
-    console.log("works");
     removeStcikyFooter();
 });
 
-
+$('.carousel-item').on("dblclick", function () {
+    closeCarousel();
+});
 

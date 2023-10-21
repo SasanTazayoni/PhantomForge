@@ -1,9 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Butcherman&family=Creepster&family=Eater&family=Frijole&family=Nosifer&family=Piedra&family=Risque&display=swap');
-
-h1 {
-  font-family: 'Butcherman', sans-serif;
-  /* color: #39ff14; */
-}
 /* -------------------------
 GALLERY
 ---------------------------- */
@@ -35,7 +29,7 @@ GALLERY
   transition: all 0.5s;
   color: #39ff14;
   opacity: 1;
-  letter-spacing: 2px;
+  letter-spacing: 4px;
   font-size: 4rem;
 }
 
