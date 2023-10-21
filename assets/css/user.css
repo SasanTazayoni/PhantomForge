@@ -8,3 +8,45 @@ header.masthead {
     background-attachment: scroll;
     background-size: cover; */
 }
+
+.img-gallery {
+  height: auto;
+  width: 100%;
+  vertical-align: baseline;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  object-fit: contain;
+}
+
+#gallery-bg {
+  /* background-color: darkorange; */
+  /* background: linear-gradient(rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.7) 100%), url(../img/gallery.jpg); */
+  background: url("../img/gallery.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+/* .gallery-box {
+  max-height: 300px;
+} */
+
+.overlay-gallery {
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 100%;
+  width: 100%;
+}
+
+.gallery-holder {
+  height: inherit;
+}
+
+.gallery-title {
+  line-height: 25vh;
+  display: inline-block;
+  /* vertical-align: baseline; */
+}
