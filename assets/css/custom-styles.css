@@ -38,10 +38,10 @@ header {
     #000000 50%,
     #ff8c00 100%
   );
-  background-image: url("/assets/img/skulls.jpg");
+  background-image: url("../img/contact-form-img-small.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: right;
+  background-position: center;
   padding-bottom: 0;
   color: #fff;
 }
@@ -103,7 +103,7 @@ header {
 .footer-icon i {
   transition: all 0.5s;
   color: #39ff14;
-  opacity: 0.5;
+  opacity: 0.7;
 
 }
 
