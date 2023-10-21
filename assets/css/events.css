@@ -4,6 +4,7 @@
 }
 h2 {
   font-family: Creepster;
+  font-size: 50px;
 }
  #map {
     height: 100%;
@@ -20,8 +21,8 @@ h2 {
   }
  
   .glow {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 42px #39FF14, 0 0 82px #39FF14,0 0 92px #39FF14;
-    color: white;
+    text-shadow: 0 0 10px #f0f0f0, 0 0 20px #f0f0f0, 0 0 42px #39FF14, 0 0 82px #39FF14,0 0 92px #39FF14;
+    color:#f0f0f0;
   }
   .relative-position {
     position: relative;
