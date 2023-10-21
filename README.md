@@ -19,6 +19,7 @@ A Halloween Hackathon
 - [Technology](#technology)
 - [Testing](#testing)
 - [Deployment](#deployment)
+- [Credits](#credits)
 - [Screenshots](#screenshots)
 
 
@@ -170,8 +171,6 @@ The website has below features:
 ### Bootstrap 
 * Bootstrap@5.1.3 as a CSS framework to keep responsive, mobile first aproach.
 
-### Font Awesome
-* As an icon library for a social links.
 
 ### Google fonts
 * As a font resource.
@@ -185,7 +184,7 @@ The website has below features:
 ### Gitpod
 * As a development hosting platform.
 
-### Wireframe.cc
+### Miro
 * As a wireframing tool.
 
 ### GNU Image Manipulation Program [GIMP]
@@ -196,13 +195,34 @@ The website has below features:
 
 
 
-## Testing
-- Validating
-- Testing user stories (how user stories are satisfied)
-- Responsinator testing
-- Lighthouse testing
-- PowerMapper testing for browser compatibility (leave for Sasan)
-- Bugs
+# Testing
+
+## Functionality testing 
+
+ We used Mozilla web developer tools and Chrome developer tools throughout the project for testing and solving problems with responsiveness and style issues.
+ 
+ [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB) extension to chrome browser was very helpful.
+
+
+## Compatibility testing
+ Site was tested across multiple virtual mobile devices and browsers. I checked all supported devices in both Mozilla web developer tolls and Chrome developer tools. 
+ 
+ I tested on hardware devices such as: Lenovo ideapad with Ubuntu and Windows OS's, Lenovo smartphone with Android 7, Google pixel 3 with Android 11.
+
+
+## Code Validation
+ At the and of the project We used two websites to validate a code
+ 
+ * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) to validate CSS
+ * [Nu Html Checker](https://validator.w3.org/) to test HTML
+
+## Testing user stories (how user stories are satisfied)
+
+## Lighthouse testing
+
+## PowerMapper testing for browser compatibility (leave for Sasan)
+
+## Bugs
 
 ## Deployment
 
@@ -218,3 +238,6 @@ https://stock.adobe.com/de/search?k=pumpkins&search_type=usertyped&asset_id=2929
 * Contact page image(s):
 https://www.pexels.com/photo/photography-of-cat-at-full-moon-35888/ (cat)
 https://www.pexels.com/photo/decoration-made-with-human-skulls-4997839/ (skull - _remove if not using_)
+
+
+## screenshots
