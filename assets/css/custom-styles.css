@@ -2,6 +2,7 @@
 
 .navbar {
   background: #000 !important;
+  border-bottom: solid 1px rgba(255, 140, 0, 0.4);
 }
 
 .logo-container {
@@ -47,10 +48,23 @@
 .navbar-toggler {
   border: solid 1px #39ff14;
   background: #000;
+  transition: all 0.3s;
+  outline: none !important;
+}
+
+.navbar-toggler:hover {
+  filter: drop-shadow(0 0 10px #39ff14) 
+          drop-shadow(0 0 20px #39ff14);
 }
 
 .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(57, 255, 20, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+@media screen and (max-width: 991px) {
+  .nav-link {
+    border-bottom: solid 1px rgba(0, 128, 0, 0.4);
+  }
 }
 
 @media screen and (max-width: 376px) {
@@ -65,7 +79,7 @@
   }
 }
 
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 324px) {
   .nav-component {
     font-size: 14px;
   }
