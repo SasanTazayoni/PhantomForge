@@ -1,3 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Butcherman&family=Creepster&family=Eater&family=Frijole&family=Nosifer&family=Piedra&family=Risque&display=swap');
+
+h1 {
+  font-family: 'Butcherman', sans-serif;
+  /* color: #39ff14; */
+}
+
+.gallery-title {
+  transition: all 0.5s;
+  color: #39ff14;
+  opacity: 1;
+  letter-spacing: 2px;
+  font-size: 4rem;
+}
+
+.gallery-title:hover {
+  filter: drop-shadow(0 0 10px #39ff14)
+          drop-shadow(0 0 20px #39ff14);
+
+  /* opacity: 1; */
+  /* transform: translateY(2%); */
+}
+
 header.masthead {
   /* padding-top: 10rem;
     padding-bottom: calc(10rem - 4.5rem);
@@ -19,10 +42,28 @@ header.masthead {
   object-fit: contain;
 }
 
+.div-img{
+  justify-content: center;
+  align-items: center;
+  display:flex;
+  padding-top:20%;
+}
+
+img{
+  transition: transform .2s;
+  margin:0 auto;
+  background-color: rgb(173, 173, 237);
+  border-radius: 10px;
+  border: 1px solid black;
+}
+img:hover{
+  transform:scale(1.05);
+}
+
 #gallery-bg {
   /* background-color: darkorange; */
   /* background: linear-gradient(rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.7) 100%), url(../img/gallery.jpg); */
-  background: url("../img/gallery.jpg");
+  background-image: url("../img/gallery.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -44,9 +85,20 @@ header.masthead {
 .gallery-holder {
   height: inherit;
 }
+.bar {
+  height: 12.5vh;
+}
 
 .gallery-title {
-  line-height: 25vh;
+  line-height: 12.5vh;
   display: inline-block;
   /* vertical-align: baseline; */
+}
+
+/* Large devices (laptops/desktops, 992px and down) */
+@media only screen and (max-width: 992px) {
+  #gallery-bg {
+    /* background-image: none; */
+    background: linear-gradient(rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.7) 100%), url(../img/gallery.jpg);
+  }
 }
