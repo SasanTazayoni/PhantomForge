@@ -39,13 +39,6 @@ GALLERY
   font-size: 4rem;
 }
 
-.gallery-title:hover {
-  filter: drop-shadow(0 0 10px #39ff14)
-          drop-shadow(0 0 20px #39ff14);
-  /* opacity: 1; */
-  /* transform: translateY(2%); */
-}
-
 /* Gallery image */
 .img-gallery {
   height: auto;
