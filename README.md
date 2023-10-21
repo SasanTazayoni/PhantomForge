@@ -2,6 +2,8 @@
 
 A Halloween Hackathon
 
+
+# Table of contents
 - [Intro with SS from amiresponsive](#Intro-with-SS-from-amiresponsive)
 
 - [UX](#ux)
@@ -12,7 +14,7 @@ A Halloween Hackathon
         - [Returning user goals](#returning-user-goals)
     - [Structure of the website](#structure-of-the-website)
     - [Surface](#surface)
-
+- [Features](#features)
 - [Wireframes](#wireframes)
 - [Technology](#technology)
 - [Testing](#testing)
@@ -105,47 +107,92 @@ The website has below features:
 
     * This section contains information about why we celebrate Halloween, where it started etc.
 
-* ### Packages section
+* ### Gallery section
 
-    * This part has three packages to choose for a customers. All buttons are linked to offer site.
+    * This part has a silder with some of the gallery images 
 
-## About me
+* ### Horror Stories section
+    * This section has some short terrifying stories
 
-* About me gives information about Annie's life and her professional background.
+## Events
 
-## Offer
+* Contains a map where you can see the different events related to Halloween
 
-* This site provide packages description to customers.
-Here they can find more information and choose interesting offer.
+## Gallery
+
+* On this page there is an extensive gallery of people dressed in costumes in different parts of the world.
 
 ## Contact
 
 * Contact form is a main part on this site. User can contact by filling a form with interesting topic.
-Below a form there is a map with location of a fitness studio.
+
 
 ##  Future implementations
 
-* Create diet coach offer.
-* Add new site with class descriptions.
-* A blog site with fitness advises.
-* Login site for paid content including videos, meals ideas and recipes.
-
+* 
+* 
+* 
 
 [Back to Table of contents](#table-of-contents)
 
-Favicon:
+# Wireframes
 
-Hero image:
+## Home
 
-Gallery images:
+![Home_wireframe](./assets/img/wireframes/home.png)
+
+## Events
+
+![Events_wireframe](./assets/img/wireframes/events.png)
+
+## Gallery
+
+![Gallery_wireframe](./assets/img/wireframes/gallery.png)
+
+
+## Contact
+
+![Contact_wireframe](./assets/img/wireframes/contact.png)
 
 
 
-- Future features
 
-* Technology used:
-- Languages
-- Frameworks, libraries and programs used
+
+
+# Technologies used
+
+### HTML5
+* As a structure language.
+
+### CSS
+* As a style language.
+
+### Bootstrap 
+* Bootstrap@5.1.3 as a CSS framework to keep responsive, mobile first aproach.
+
+### Font Awesome
+* As an icon library for a social links.
+
+### Google fonts
+* As a font resource.
+
+### GitHub
+* As a software hosting platform to keep project in a remote location.
+
+### Git
+* As a version-control system tracking.
+
+### Gitpod
+* As a development hosting platform.
+
+### Wireframe.cc
+* As a wireframing tool.
+
+### GNU Image Manipulation Program [GIMP]
+* As an image editor.
+
+
+[Back to Table of contents](#table-of-contents)
 
 
 
