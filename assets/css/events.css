@@ -4,7 +4,21 @@
 }
 h2 {
   font-family: Creepster;
-  font-size: 50px;
+  font-size: 60px;
+  color: #39ff14;
+}
+h2:hover {
+  filter: drop-shadow(0 0 10px #39ff14) 
+          drop-shadow(0 0 20px #39ff14) 
+          drop-shadow(0 0 40px #39ff14);
+}
+p {
+  font-family: 'Signika Negative';
+  font-size: 20px;
+}
+a {
+  font-family: 'Signika Negative';
+  font-size: 20px;
 }
  #map {
     height: 100%;
