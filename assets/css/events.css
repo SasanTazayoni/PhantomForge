@@ -4,6 +4,21 @@
 }
 h2 {
   font-family: Creepster;
+  color:#39FF14;
+  font-size: 60px;
+}
+h2:hover {
+  filter: drop-shadow(0 0 10px #39ff14) 
+          drop-shadow(0 0 20px #39ff14) 
+          drop-shadow(0 0 40px #39ff14);
+}
+p {
+  font-family: 'Signika Negative';
+  font-size: 20px;
+}
+a {
+  font-family: 'Signika Negative';
+  font-size: 20px;
 }
  #map {
     height: 100%;
@@ -19,10 +34,6 @@ h2 {
     }
   }
  
-  .glow {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 42px #39FF14, 0 0 82px #39FF14,0 0 92px #39FF14;
-    color: white;
-  }
   .relative-position {
     position: relative;
   }
