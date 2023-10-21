@@ -64,6 +64,8 @@ Main colours used in a project:
 * Details: #333333
 * Details: #000000
 
+![Colors](./assets/img/wireframes/colors.jpg)
+
 ### Fonts 
 
 * [<span style="color:#ff6100">CINZEL](https://fonts.google.com/specimen/Cinzel)
