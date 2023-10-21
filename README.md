@@ -1,13 +1,38 @@
 
 
-# PhantomForge
+# PhantomForge - Halloween Hackathon
 
-A Halloween Hackathon
+# Witchway Tracker - Halloween Events Locator
 
+## Overview
+
+"Witchway Tracker" is a responsive web application developed by the Haunted Hackers team during a hackathon. This Halloween-themed app is designed to help users locate and explore nearby Halloween events in the Dublin area. With its interactive features and sp00ky aesthetic effects, "Witchway Tracker" aims to provide a fun and informative experience for Halloween enthusiasts.
+
+## Key Features
+
+* Event Locator: Use the power of the Google Maps API to pinpoint the locations of Halloween-based events throughout the Dublin area. Each event is represented by a clickable pin that reveals essential information, such as date, time, ticket prices, and location.
+* Galleries: Explore a gallery of pictures showcasing attendees and their Halloween costumes. Get inspired or share your own fantastic costume creations with the Witchway Tracker community.
+* Contact Form: Have questions, feedback, or a chilling Halloween story to share? Use the contact form on our app to get in touch with us. We are here to assist and appreciate your sp00ky tales.
+
+## Target Audience
+
+"Witchway Tracker" is designed for Halloween enthusiasts and event-goers who want to make the most of the Halloween season in Dublin. Its target audience includes:
+
+* Local Residents: Dublin residents seeking Halloween events in their area, whether it's haunted houses, costume parties, or family-friendly activities.
+* Tourists: Visitors to Dublin looking for a memorable and unique Halloween experience.
+* Costume Enthusiasts: Individuals who want to showcase their Halloween costumes and get inspired by others' creative outfits.
+* Event Organisers: Event organizers looking to promote their Halloween-themed events to a wider audience and provide location and ticket information.
+* Anyone with Spooky Stories: People who want to share their spooky tales or have questions about the app and its features.
+
+## How to Use
+
+To use "Witchway Tracker," simply visit our [website](https://sasantazayoni.github.io/PhantomForge/), and you'll be greeted by a captivating hero section that introduces the app. From there, you can navigate through the four main pages to discover nearby Halloween events, check out the user galleries, and even get in touch with us.
+
+Have a sp00ktacular time using "Witchway Tracker" and make the most of the Halloween season in Dublin!
+
+![Screenshot of responsiveness](documentation/responsive.png)
 
 # Table of contents
-- [<span style="color:#ff6100">Intro with SS from amiresponsive](#Intro-with-SS-from-amiresponsive)
-
 - [<span style="color:#ff6100">UX](#ux)
 
     - [<span style="color:#ff6100">Website owner business goals](#website-owner-business-goals) 
@@ -23,11 +48,6 @@ A Halloween Hackathon
 - [<span style="color:#ff6100">Deployment](#deployment)
 - [<span style="color:#ff6100">Credits](#credits)
 - [<span style="color:#ff6100">Screenshots](#screenshots)
-
-
-# Intro with SS from amiresponsive
-
-The wireframes do not fully correspond with the end product due to multiple changes made throughout the production phase.
 
 
 # UX
@@ -63,6 +83,9 @@ Main colours used in a project:
 * link color: #FF6100
 * Details: #333333
 * Details: #000000
+* Details:#39ff14
+
+![Colors](./assets/img/wireframes/color.png)
 
 ### Fonts 
 
@@ -88,6 +111,8 @@ The website has below features:
 
 * #### Navigation bar is visible on the top of each website. It is responsive and will adapt to mobile devices by a change into a burger menu.
 
+![Menu](./assets/img/screenshoots/menu.jpg)
+
 * Navigation scheme:
     * On left side there is a Website name. It can be used as navigation link to the main page.
     * On right side there are four links or burger menu. It contains:
@@ -106,16 +131,8 @@ The website has below features:
 
     * Big header whit Hallowen animation, It has the Name of the Website and a button link to the events page
 
-* ### Info Hallowin section
+![Hero home page](./assets/img/screenshoots/Macbook%20Pro-1697914876350.jpeg)
 
-    * This section contains information about why we celebrate Halloween, where it started etc.
-
-* ### Gallery section
-
-    * This part has a silder with some of the gallery images 
-
-* ### Horror Stories section
-    * This section has some short terrifying stories
 
 ## Events
 
@@ -200,8 +217,6 @@ The website has below features:
 
  We used Mozilla web developer tools and Chrome developer tools throughout the project for testing and solving problems with responsiveness and style issues.
  
- [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB) extension to chrome browser was very helpful.
-
 
 ## Compatibility testing
  Site was tested across multiple virtual mobile devices and browsers. I checked all supported devices in both Mozilla web developer tolls and Chrome developer tools. 
@@ -217,6 +232,11 @@ The website has below features:
  * [<span style="color:#ff6100">JavaScript validator](https://esprima.org/demo/validate.html) to test JavaScript
 
 ## Testing user stories (how user stories are satisfied)
+
+* The application is intuitive and easy to use
+* As a Users easily find the information they are looking for about events
+* As a user I have a gallery that helps me with inspiration for my costume
+
 
 ## Lighthouse testing
 
@@ -259,3 +279,6 @@ https://www.pexels.com/photo/decoration-made-with-human-skulls-4997839/ (skull -
 
 
 ## screenshots
+
+![Home](./assets/img/screenshoots/Macbook%20Pro-1697914876350.jpeg)
+![Home ipad 12](./assets/img/screenshoots/iPad-1697914876389.jpeg)
