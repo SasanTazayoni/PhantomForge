@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Signika+Negative&display=swap');
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -40,6 +42,7 @@ HERO
 .hero-section small {
   color: #ffffff;
   text-transform: uppercase;
+  font-family: 'Creepster';
 }
 
 .hero-section .section-overlay {
@@ -55,8 +58,9 @@ HERO
 
 .text-center {
   text-align: center !important;
-  font-size: 30px;
+  font-size: 35px;
   font-family: var(--sans-font);
+  font-family: 'Creepster';
 }
 
 .text-white {
@@ -72,7 +76,8 @@ HERO
       align-items: center
 }
 .text-center h1 {
-  font-family: var(--sans-font);
+  font-family: 'Creepster';
+  font-size: 60px;
 }
 
 
@@ -215,7 +220,7 @@ CUSTOM BUTTON
 .btn:hover span:nth-child(3) {
   right: 100%;
   transition: 1s;
-  transition-delay: 0.5s;
+  transition-delay: 0.45s;
 }
 
 
@@ -231,7 +236,7 @@ CUSTOM BUTTON
 .btn:hover span:nth-child(2) {
   top: 100%;
   transition: 1s;
-  transition-delay: 0.25s;
+  transition-delay: 0.20s;
 }
 
 
@@ -247,7 +252,7 @@ CUSTOM BUTTON
 .btn:hover span:nth-child(4) {
   bottom: 100%;
   transition: 1s;
-  transition-delay: 0.75s;
+  transition-delay: 0.70s;
 }
 
 
@@ -255,8 +260,56 @@ CUSTOM BUTTON
 MEDIA Query 
 --------------------------------------------*/
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {}
+/* Small devices (portrait tablets and large phones, 400px and down) */
+@media only screen and (max-width: 350px) {
+  .footer-credits {
+    color: #39ff14;
+    display: block;;
+
+  }
+
+  .footer-credits p {
+    padding-right: 10px;
+    font-size: 90%;
+  }
+  
+  .footer-icon i {
+    transition: all 0.5s;
+    color: #39ff14;
+    opacity: 0.8;
+    font-size: 15px;
+  
+  }
+
+  .social-networks ul {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    gap: 5px;
+  }
+
+  .hero-section .container {
+    position: relative;
+    z-index: 2;
+    height: 80vh;
+  }
+
+  .text-center {
+    text-align: center !important;
+    font-size: 20px;
+    font-family: var(--sans-font);
+  }
+
+  .text-white {
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
+    font-size: 100%;
+  }
+  
+
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {}
