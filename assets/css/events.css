@@ -25,6 +25,7 @@ a {
   transition: all 0.3s;
 }
 .gallery-link:hover {
+  color: #39FF14;
   filter: drop-shadow(0 0 10px #39ff14) 
           drop-shadow(0 0 20px #39ff14);
 }
