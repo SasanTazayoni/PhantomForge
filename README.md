@@ -1,26 +1,28 @@
+
+
 # PhantomForge
 
 A Halloween Hackathon
 
 
 # Table of contents
-- [Intro with SS from amiresponsive](#Intro-with-SS-from-amiresponsive)
+- [<span style="color:#ff6100">Intro with SS from amiresponsive](#Intro-with-SS-from-amiresponsive)
 
-- [UX](#ux)
+- [<span style="color:#ff6100">UX](#ux)
 
-    - [Website owner business goals](#website-owner-business-goals) 
-    - [User goals](#user-goals)
-        - [New user goals](#new-user-goals)
-        - [Returning user goals](#returning-user-goals)
-    - [Structure of the website](#structure-of-the-website)
-    - [Surface](#surface)
-- [Features](#features)
-- [Wireframes](#wireframes)
-- [Technology](#technology)
-- [Testing](#testing)
-- [Deployment](#deployment)
-- [Credits](#credits)
-- [Screenshots](#screenshots)
+    - [<span style="color:#ff6100">Website owner business goals](#website-owner-business-goals) 
+    - [<span style="color:#ff6100">User goals](#user-goals)
+        - [<span style="color:#ff6100">New user goals](#new-user-goals)
+        - [<span style="color:#ff6100">Returning user goals](#returning-user-goals)
+    - [<span style="color:#ff6100">Structure of the website](#structure-of-the-website)
+    - [<span style="color:#ff6100">Surface](#surface)
+- [<span style="color:#ff6100">Features](#features)
+- [<span style="color:#ff6100">Wireframes](#wireframes)
+- [<span style="color:#ff6100">Technology](#technology)
+- [<span style="color:#ff6100">Testing](#testing)
+- [<span style="color:#ff6100">Deployment](#deployment)
+- [<span style="color:#ff6100">Credits](#credits)
+- [<span style="color:#ff6100">Screenshots](#screenshots)
 
 
 # Intro with SS from amiresponsive
@@ -64,16 +66,16 @@ Main colours used in a project:
 
 ### Fonts 
 
-* [CINZEL](https://fonts.google.com/specimen/Cinzel)
-* [CREEPSTER](https://fonts.google.com/specimen/Creepster?query=CREEPS)
-* [Delicious Handrawn](https://fonts.google.com/specimen/Delicious+Handrawn)
+* [<span style="color:#ff6100">CINZEL](https://fonts.google.com/specimen/Cinzel)
+* [<span style="color:#ff6100">CREEPSTER](https://fonts.google.com/specimen/Creepster?query=CREEPS)
+* [<span style="color:#ff6100">Delicious Handrawn](https://fonts.google.com/specimen/Delicious+Handrawn)
 
 ### Images
 
-* I used images from [pexel.com](https://www.pexels.com/photo/photography-of-cat-at-full-moon-35888/) and there are credited in [credits](#credits) section.
+* I used images from [<span style="color:#ff6100">pexel.com](https://www.pexels.com/photo/photography-of-cat-at-full-moon-35888/) and there are credited in [<span style="color:#ff6100">credits](#credits) section.
 
 
-[Back to Table of contents](#table-of-contents)
+[<span style="color:#ff6100">Back to Table of contents](#table-of-contents)
 
 # Features
 
@@ -134,7 +136,7 @@ The website has below features:
 * 
 * 
 
-[Back to Table of contents](#table-of-contents)
+[<span style="color:#ff6100">Back to Table of contents](#table-of-contents)
 
 # Wireframes
 
@@ -154,9 +156,6 @@ The website has below features:
 ## Contact
 
 ![Contact_wireframe](./assets/img/wireframes/contact.png)
-
-
-
 
 
 
@@ -187,11 +186,11 @@ The website has below features:
 ### Miro
 * As a wireframing tool.
 
-### GNU Image Manipulation Program [GIMP]
+### GIMP
 * As an image editor.
 
 
-[Back to Table of contents](#table-of-contents)
+[<span style="color:#ff6100">Back to Table of contents](#table-of-contents)
 
 
 
@@ -213,8 +212,9 @@ The website has below features:
 ## Code Validation
  At the and of the project We used two websites to validate a code
  
- * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) to validate CSS
- * [Nu Html Checker](https://validator.w3.org/) to test HTML
+ * [<span style="color:#ff6100">W3C CSS Validator](https://jigsaw.w3.org/css-validator/) to validate CSS
+ * [<span style="color:#ff6100">Nu Html Checker](https://validator.w3.org/) to test HTML
+ * [<span style="color:#ff6100">JavaScript validator](https://esprima.org/demo/validate.html) to test JavaScript
 
 ## Testing user stories (how user stories are satisfied)
 
@@ -225,6 +225,24 @@ The website has below features:
 ## Bugs
 
 ## Deployment
+
+The project was deployed on GitHub Pages. We used Gitpod and vscode as a development environment where We commited all changes to git version control system.
+
+
+To deploy a project We had to:
+
+* Log in to GitHub and click on repository to deploy ([<span style="color:#ff6100">PhantomForge](https://github.com/SasanTazayoni/PhantomForge))
+* select `Settings` and find GitHub Pages section at the very bottom of the page
+* from source select `none` and then `Milestone-Projects` branch.
+* click `save` and page was deployed after auto-refresh.
+>  Your site is published at (page link)
+
+To run localy:
+* Log in to GitHub and click on repository to download ([<span style="color:#ff6100">PhantomForge](https://github.com/SasanTazayoni/PhantomForge))
+* select `Code` and click Download the ZIP file.
+* after download you can extract the file and use it in your local environment 
+
+
 
 ## Credits
 
