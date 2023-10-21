@@ -1,14 +1,52 @@
-header.masthead {
-  /* padding-top: 10rem;
-    padding-bottom: calc(10rem - 4.5rem);
-    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url(../assets/img/background.png); */
-  background-image: url(../img/background.png);
-  /* background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover; */
+@import url('https://fonts.googleapis.com/css2?family=Butcherman&family=Creepster&family=Eater&family=Frijole&family=Nosifer&family=Piedra&family=Risque&display=swap');
+
+h1 {
+  font-family: 'Butcherman', sans-serif;
+  /* color: #39ff14; */
+}
+/* -------------------------
+GALLERY
+---------------------------- */
+
+/* Gallery page background */
+#gallery-bg {
+  background-image: url("../img/gallery.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
 }
 
+/* Gallery title */
+.bar {
+  height: 12.5vh;
+}
+
+.gallery-title {
+  line-height: 12.5vh;
+  display: inline-block;
+  /* vertical-align: baseline; */
+}
+
+.gallery-title {
+  transition: all 0.5s;
+  color: #39ff14;
+  opacity: 1;
+  letter-spacing: 2px;
+  font-size: 4rem;
+}
+
+.gallery-title:hover {
+  filter: drop-shadow(0 0 10px #39ff14)
+          drop-shadow(0 0 20px #39ff14);
+  /* opacity: 1; */
+  /* transform: translateY(2%); */
+}
+
+/* Gallery image */
 .img-gallery {
   height: auto;
   width: 100%;
@@ -17,36 +55,43 @@ header.masthead {
   padding: 0;
   margin: 0;
   object-fit: contain;
+  transition: transform .2s;
+  background-color: rgb(173, 173, 237);
+  border-radius: 10px;
+  border: 1px solid black;
 }
 
-#gallery-bg {
-  /* background-color: darkorange; */
-  /* background: linear-gradient(rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.7) 100%), url(../img/gallery.jpg); */
-  background: url("../img/gallery.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
-  height: 100%;
-  width: 100%;
+.div-img{
+  justify-content: center;
+  align-items: center;
+  display:flex;
+  padding-top:20%;
 }
 
-/* .gallery-box {
-  max-height: 300px;
-} */
-
-.overlay-gallery {
-  background-color: rgba(0, 0, 0, 0.4);
-  height: 100%;
-  width: 100%;
+.img-gallery:hover{
+  transform:scale(1.05);
 }
 
-.gallery-holder {
-  height: inherit;
+/* Carousel */
+
+#carousel {
+  display: none;
+  width: 60%;
 }
 
-.gallery-title {
-  line-height: 25vh;
-  display: inline-block;
-  /* vertical-align: baseline; */
+
+/* ----------------------------
+MEDIA QUERIES
+-------------------------------- */
+
+/* Large devices (laptops/desktops, 992px and down) */
+@media only screen and (max-width: 992px) {
+  #gallery-bg {
+    /* background-image: none; */
+    background: linear-gradient(rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.7) 100%), url(../img/gallery.jpg);
+  }
+
+  #carousel {
+    width: 90%;
+  }
 }

@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Signika+Negative&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  max-width: 100%;
+  display: grid;
+  background-color: black;
+}
+
+/*---------------------------------------
+  VIDEO              
+-----------------------------------------*/
+.video-wrap {
+  z-index: -10;
+  background-color: #000000;
+}
+
+.custom-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+/*---------------------------------------
+HERO        
+-----------------------------------------*/
+.hero-section {
+  position: relative;
+  overflow: hidden;
+  height: calc(100vh - 51px);
+}
+
+.hero-section small {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: 'Creepster';
+}
+
+.hero-section .section-overlay {
+  z-index: 2;
+  opacity: 0.10;
+}
+
+.hero-section .container {
+  position: relative;
+  z-index: 4;
+  height: 87vh;
+}
+
+.text-center {
+  text-align: center !important;
+  font-size: 35px;
+  font-family: var(--sans-font);
+  font-family: 'Creepster';
+}
+
+.text-white {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
+}
+
+.row, .justify-content-center {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center
+}
+.text-center h1 {
+  font-family: 'Creepster';
+  font-size: 60px;
+}
+
+
+/*---------------------------------------
+SECTION               
+-----------------------------------------*/
+.section-padding {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.section-bg {
+  background-color:  #f0f8ff;
+}
+
+.section-overlay {
+  background-color: #000000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  width: 100%;
+  height: 100%;
+  opacity: 0.35;
+}
+
+.section-overlay + .container {
+  position: relative;
+}
+
+/*---------------------------------------
+FOOTER            
+-----------------------------------------*/
+
+.footer-container {
+  display: flex;
+}
+
+.social-networks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.social-networks ul {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  gap: 15px;
+}
+
+.social-networks li {
+  padding: 0;
+  font-size: 100%;
+  gap: 10px;
+}
+
+.footer-credits {
+  color: #39ff14;
+  display: flex;
+}
+
+.footer-credits p {
+  padding-right: 20px;
+  font-size: 100%;
+}
+
+.footer-icon i {
+  transition: all 0.5s;
+  color: #39ff14;
+  opacity: 0.8;
+  font-size: 23px;
+
+}
+
+.footer-icon i:hover {
+  filter: drop-shadow(0 0 10px #39ff14)
+          drop-shadow(0 0 20px #39ff14);
+
+  opacity: 1;
+  transform: translateY(-20%);
+}
+
+/*---------------------------------------
+CUSTOM BUTTON               
+-----------------------------------------*/
+.btn {
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #39ff14;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.btn:hover {
+  color: Black;
+  background: #39ff14;
+  box-shadow: 0 0 10px #39ff14, 0 0 40px green, 0 0 80px #39ff14;
+  transition-delay: 1s;
+}
+
+
+.btn span {
+  position: absolute;
+  display: block;
+}
+
+.btn span:nth-child(1) {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #39ff14);
+}
+
+
+
+.btn:hover span:nth-child(1) {
+  left: 100%;
+  transition: 1s;
+}
+
+
+.btn span:nth-child(3) {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent, #39ff14);
+}
+
+.btn:hover span:nth-child(3) {
+  right: 100%;
+  transition: 1s;
+  transition-delay: 0.45s;
+}
+
+
+
+.btn span:nth-child(2) {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, #39ff14);
+}
+
+.btn:hover span:nth-child(2) {
+  top: 100%;
+  transition: 1s;
+  transition-delay: 0.20s;
+}
+
+
+
+.btn span:nth-child(4) {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg, transparent, #39ff14);
+}
+
+.btn:hover span:nth-child(4) {
+  bottom: 100%;
+  transition: 1s;
+  transition-delay: 0.70s;
+}
+
+
+/*---------------------------------------
+MEDIA Query 
+--------------------------------------------*/
+
+/* Small devices (portrait tablets and large phones, 400px and down) */
+@media only screen and (max-width: 376px) {
+  .footer-credits {
+    color: #39ff14;
+    display: block;;
+  }
+
+  .footer-credits p {
+    padding-right: 10px;
+    font-size: 90%;
+  }
+  
+  .footer-icon i {
+    transition: all 0.5s;
+    color: #39ff14;
+    opacity: 0.8; 
+  }
+
+  .social-networks ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero-section .container {
+    position: relative;
+    z-index: 2;
+    height: 80vh;
+  }
+
+  .text-center {
+    text-align: center !important;
+    font-size: 20px;
+    font-family: var(--sans-font);
+  }
+
+  .text-white {
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
+    font-size: 100%;
+  }
+  
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
