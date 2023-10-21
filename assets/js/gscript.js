@@ -73,14 +73,14 @@ function imgFind() {
 
 $('.img-gallery').click(function () {
     activateCarousel();
-    let image = this.src;
-    let srcs = imgFind();
-    for (src of srcs) {
-        if (src == image) {
-            // alert("Hej");
-            // $('img').parent().addClass("active");
-        }
-    }
+    // let image = this.src;
+    // let srcs = imgFind();
+    // for (src of srcs) {
+    //     if (src == image) {
+    //         alert("Hej");
+    //         $('img').parent().addClass("active");
+    //     }
+    // }
 });
 
 addEventListener("resize", () => {
