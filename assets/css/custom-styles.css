@@ -1,4 +1,79 @@
-/*Animation Bat*/
+/* Navbar */
+
+.navbar {
+  background: #000 !important;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-left: 10px;
+  width: 40px;
+  height: 40px;
+  transition: all 0.3s;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 10px #ff8c00) 
+          drop-shadow(0 0 20px #ff8c00);
+}
+
+.nav-component {
+  color: #39ff14;
+  margin: 0;
+  transition: all 0.3s;
+}
+
+.nav-component:hover {
+  filter: drop-shadow(0 0 10px #39ff14) 
+          drop-shadow(0 0 20px #39ff14) 
+          drop-shadow(0 0 40px #39ff14);
+}
+
+.nav-link {
+  color: #39ff14 !important;
+  transition: all 0.3s;
+}
+
+.nav-link:hover {
+  filter: drop-shadow(0 0 10px #39ff14) 
+          drop-shadow(0 0 20px #39ff14)
+          drop-shadow(0 0 40px #39ff14);
+}
+
+.navbar-toggler {
+  border: solid 1px #39ff14;
+  background: #000;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(57, 255, 20, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+@media screen and (max-width: 376px) {
+  .nav-component {
+    font-size: 16px;
+  }
+
+  .logo {
+    margin-left: 7px;
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .nav-component {
+    font-size: 14px;
+  }
+
+  .logo {
+    margin-left: 5px;
+  }
+}
 
 header {
   position: relative;
@@ -38,10 +113,10 @@ header {
     #000000 50%,
     #ff8c00 100%
   );
-  background-image: url("/assets/img/skulls.jpg");
+  background-image: url("../img/contact-form-img-small.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: right;
+  background-position: center;
   padding-bottom: 0;
   color: #fff;
 }
@@ -103,14 +178,13 @@ header {
 .footer-icon i {
   transition: all 0.5s;
   color: #39ff14;
-  opacity: 0.5;
+  opacity: 0.7;
 
 }
 
 .footer-icon i:hover {
   filter: drop-shadow(0 0 10px #39ff14)
           drop-shadow(0 0 20px #39ff14);
-
   opacity: 1;
   transform: translateY(-20%);
 }
@@ -146,7 +220,7 @@ header {
     min-height: 200px;
   }
   .contact-form {
-    background-image: url("/assets/img/contact-form-img.jpg");
+    background-image: url("../img/contact-form-img.jpg");
     background-size: cover;
     background-position: right;
   }
