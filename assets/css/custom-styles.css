@@ -116,21 +116,6 @@ header {
 }
 /*End animation bat*/
 
-.contact-form {
-  background: linear-gradient(
-    to bottom,
-    #000000 0%,
-    #000000 50%,
-    #ff8c00 100%
-  );
-  background-image: url("../img/contactForm/contact-form-img-small.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  padding-bottom: 0;
-  color: #fff;
-}
-
 /* ======== Footer ======== */
 .footer-img {
   background-color: transparent;
