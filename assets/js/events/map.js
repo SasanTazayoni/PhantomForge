@@ -98,7 +98,6 @@ async function initMap() {
     `,
       position: {lat:53.349696, lng: -6.245413 },
     },
-    
   ]
 
   // Creates instance of each marker in the array
@@ -118,5 +117,4 @@ async function initMap() {
     });
   });
 }
-
 initMap();
