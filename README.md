@@ -1,12 +1,34 @@
 
 
-# PhantomForge
+# PhantomForge - Halloween Hackathon
 
-# WITCHWAY TRACKER
+# Witchway Tracker - Halloween Events Locator
 
-Our app is designed so that users can find events related to Halloween, it has an easy-to-use interface with a gallery of costumes which users can use as inspiration for their costumes. We also have a form for you to share your horror stories on our social networks
+## Overview
 
+"Witchway Tracker" is a responsive web application developed by the Haunted Hackers team during a hackathon. This Halloween-themed app is designed to help users locate and explore nearby Halloween events in the Dublin area. With its interactive features and sp00ky aesthetic effects, "Witchway Tracker" aims to provide a fun and informative experience for Halloween enthusiasts.
 
+## Key Features
+
+* Event Locator: Use the power of the Google Maps API to pinpoint the locations of Halloween-based events throughout the Dublin area. Each event is represented by a clickable pin that reveals essential information, such as date, time, ticket prices, and location.
+* Galleries: Explore a gallery of pictures showcasing attendees and their Halloween costumes. Get inspired or share your own fantastic costume creations with the Witchway Tracker community.
+* Contact Form: Have questions, feedback, or a chilling Halloween story to share? Use the contact form on our app to get in touch with us. We are here to assist and appreciate your sp00ky tales.
+
+## Target Audience
+
+"Witchway Tracker" is designed for Halloween enthusiasts and event-goers who want to make the most of the Halloween season in Dublin. Its target audience includes:
+
+* Local Residents: Dublin residents seeking Halloween events in their area, whether it's haunted houses, costume parties, or family-friendly activities.
+* Tourists: Visitors to Dublin looking for a memorable and unique Halloween experience.
+* Costume Enthusiasts: Individuals who want to showcase their Halloween costumes and get inspired by others' creative outfits.
+* Event Organisers: Event organizers looking to promote their Halloween-themed events to a wider audience and provide location and ticket information.
+* Anyone with Spooky Stories: People who want to share their spooky tales or have questions about the app and its features.
+
+## How to Use
+
+To use "Witchway Tracker," simply visit our [website](https://sasantazayoni.github.io/PhantomForge/), and you'll be greeted by a captivating hero section that introduces the app. From there, you can navigate through the four main pages to discover nearby Halloween events, check out the user galleries, and even get in touch with us.
+
+Have a sp00ktacular time using "Witchway Tracker" and make the most of the Halloween season in Dublin!
 
 # Table of contents
 - [<span style="color:#ff6100">Intro with SS from amiresponsive](#Intro-with-SS-from-amiresponsive)
