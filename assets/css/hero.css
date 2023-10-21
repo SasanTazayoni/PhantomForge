@@ -112,6 +112,12 @@ body {
   margin-bottom: 20px !important;
 }
 
+@media screen and (max-width: 428px) {
+  #hero-title {
+    font-size: 40px;
+  }
+}
+
 header {
   position: relative;
 }
