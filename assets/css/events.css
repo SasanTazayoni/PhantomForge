@@ -1,16 +1,11 @@
 
- body {
+body {
   background-color:#090A0B;
 }
 h2 {
   font-family: Creepster;
   color:#39FF14;
   font-size: 60px;
-  transition: all 0.3s;
-}
-h2:hover {
-  filter: drop-shadow(0 0 10px #39ff14) 
-          drop-shadow(0 0 20px #39ff14);
 }
 p {
   font-family: 'Signika Negative';
@@ -19,6 +14,19 @@ p {
 a {
   font-family: 'Signika Negative';
   font-size: 20px;
+  text-decoration: none;
+}
+.event-text {
+  width: 400px;
+  padding: 0 20px;
+}
+.gallery-link {
+  color: #39FF14;
+  transition: all 0.3s;
+}
+.gallery-link:hover {
+  filter: drop-shadow(0 0 10px #39ff14) 
+          drop-shadow(0 0 20px #39ff14);
 }
  #map {
     height: 100%;
@@ -49,9 +57,25 @@ a {
     z-index: -1; 
   }
 
+@media screen and (max-width: 428px) {
+  p {
+    font-size: 16px;
+  }
 
-  
-  
+  a {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 324px) {
+  p {
+    font-size: 14px;
+  }
+
+  a {
+    font-size: 14px;
+  }
+}
   
   
   
