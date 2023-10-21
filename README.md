@@ -30,6 +30,8 @@ To use "Witchway Tracker," simply visit our [website](https://sasantazayoni.gith
 
 Have a sp00ktacular time using "Witchway Tracker" and make the most of the Halloween season in Dublin!
 
+![Screenshot of responsiveness](documentation/responsive.png)
+
 # Table of contents
 - [<span style="color:#ff6100">Intro with SS from amiresponsive](#Intro-with-SS-from-amiresponsive)
 
