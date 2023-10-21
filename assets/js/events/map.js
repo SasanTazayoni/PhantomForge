@@ -50,7 +50,7 @@ async function initMap() {
     },
     {
       content: `
-      <div>
+      <div >
         <h4>O'Reilly's | Halloween Night Fancy Dress Ball | Tues 31st October</h4>
         <p>Dublin's Wildest Halloween Night Fancy Dress Ball is back at O'Reillys' with €1/€2/€3 Drinks, Party DJs, Massive Prizes for best dressed. Tue, 31 Oct 2023 22:30 - Wed, 1 Nov 2023 02:30 GMT</p>
         <a href="https://www.eventbrite.com/e/oreillys-halloween-night-fancy-dress-ball-tues-31st-october-tickets-731847765367?aff=ebdssbdestsearch&keep_tld=1" target="_blank">Buy Tickets</a>
