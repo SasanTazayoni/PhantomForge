@@ -147,11 +147,6 @@ The website has below features:
 * Contact form is a main part on this site. User can contact by filling a form with interesting topic.
 
 
-##  Future implementations
-
-* 
-* 
-* 
 
 [<span style="color:#ff6100">Back to Table of contents](#table-of-contents)
 
@@ -281,4 +276,6 @@ https://www.pexels.com/photo/decoration-made-with-human-skulls-4997839/ (skull -
 ## screenshots
 
 ![Home](./assets/img/screenshoots/Macbook%20Pro-1697914876350.jpeg)
-![Home ipad 12](./assets/img/screenshoots/iPad-1697914876389.jpeg)
+![contact](./assets/img/screenshoots/Nest%20Hub-1697961992568.jpeg)
+![events](./assets/img/screenshoots/Samsung%20Galaxy%20S20%20Ultra-1697961964626.jpeg)
+![Home2](./assets/img/screenshoots/iPad-1697961974352.jpeg)
