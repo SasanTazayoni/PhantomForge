@@ -281,7 +281,7 @@ FOOTER
 .footer-credits p {
   padding-right: 20px;
   font-size: 100%;
-  font-family: 'Signika';
+  font-family: 'Signika Negative';
 }
 
 .footer-icon i {
@@ -359,8 +359,6 @@ CUSTOM BUTTON
   transition-delay: 0.45s;
 }
 
-
-
 .btn span:nth-child(2) {
   top: -100%;
   right: 0;
@@ -374,8 +372,6 @@ CUSTOM BUTTON
   transition: 0.5s;
   transition-delay: 0.20s;
 }
-
-
 
 .btn span:nth-child(4) {
   bottom: -100%;
@@ -404,7 +400,7 @@ MEDIA Query
   }
 
   .footer-credits p {
-    padding-right: 10px;
+    padding-right: 0;
     font-size: 90%;
   }
   
