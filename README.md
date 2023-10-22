@@ -195,12 +195,6 @@ The wireframes do not fully correspond with the end product due to multiple chan
 
 We used Mozilla web developer tools and Chrome developer tools throughout the project for testing and solving problems with responsiveness and style issues.
 
-## Compatibility testing
-
-Site was tested across multiple virtual mobile devices and browsers. We checked all supported devices in both Mozilla web developer tools and Chrome developer tools.
-
-We tested on hardware devices such as: Lenovo ideapad with Ubuntu and Windows OS's, Lenovo smartphone with Android 7, Google pixel 3 with Android 11.
-
 ## Code Validation
 
 At the end of the project we used the following websites to validate our code:
