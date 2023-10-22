@@ -3,13 +3,14 @@ body {
   background-color:#090A0B;
 }
 h2 {
-  font-family: Creepster;
+  font-family: 'Creepster';
   color:#39FF14;
   font-size: 60px;
 }
 h4 {
   font-family: Creepster;
 }
+
 p {
   font-family: 'Signika Negative';
   font-size: 20px;
