@@ -30,24 +30,6 @@ Have a sp00ktacular time using "Witchway Tracker" and make the most of the Hallo
 
 ![Screenshot of responsiveness](documentation/responsive.png)
 
-# Table of contents
-
-- [<span style="color:#ff6100">UX](#ux)
-
-  - [<span style="color:#ff6100">Website owner business goals](#website-owner-business-goals)
-  - [<span style="color:#ff6100">User goals](#user-goals)
-    - [<span style="color:#ff6100">New user goals](#new-user-goals)
-    - [<span style="color:#ff6100">Returning user goals](#returning-user-goals)
-  - [<span style="color:#ff6100">Structure of the website](#structure-of-the-website)
-  - [<span style="color:#ff6100">Surface](#surface)
-
-- [<span style="color:#ff6100">Features](#features)
-- [<span style="color:#ff6100">Wireframes](#wireframes)
-- [<span style="color:#ff6100">Technology](#technology)
-- [<span style="color:#ff6100">Testing](#testing)
-- [<span style="color:#ff6100">Deployment](#deployment)
-- [<span style="color:#ff6100">Credits](#credits)
-- [<span style="color:#ff6100">Screenshots](#screenshots)
 
 # User Experience (UX)
 
@@ -111,6 +93,7 @@ Body text - [Signika Negative]():
 - Use: A sans-serif font that's great for body text and general readability. It offers good legibility and is commonly used for paragraphs, articles, and other long-form text.
 
 The combination of a decorative and playful font for headers (Creepster) with a clean and readable font for body text (Signika Negative) is a good choice, as it creates a contrast that enhances the overall design while maintaining readability and visual appeal.
+
 
 # Features
 
@@ -197,6 +180,7 @@ All Wireframes were designed for larger screens such as laptops or computers; fo
 
 The wireframes do not fully correspond with the end product due to multiple changes made throughout the production phase.
 
+
 # Technologies used
 
 - HTML5 as a structure language.
@@ -210,7 +194,6 @@ The wireframes do not fully correspond with the end product due to multiple chan
 - Miro as a planning, organisation and wireframing tool.
 - GIMP as an image editor.
 
-[<span style="color:#ff6100">Back to Table of contents](#table-of-contents)
 
 # Testing
 
@@ -332,8 +315,6 @@ We have tested the performance in chrome, using lighthouse:
 
 Lighthouse testing came out to be at least 86 in all areas so is considered to pass.
 ![Lighthouse testing](/documentation/features/lighthouse.png)
-
-## PowerMapper testing for browser compatibility (leave for Sasan)
 
 ## Bugs
 
