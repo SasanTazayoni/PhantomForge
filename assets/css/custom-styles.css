@@ -1,3 +1,28 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Creepster&family=Signika+Negative&display=swap");
+
+h1 {
+  font-family: Creepster;
+  color: #39ff14;
+  font-size: 60px;
+}
+h4 {
+  font-family: Creepster;
+}
+p {
+  font-family: "Signika Negative";
+  font-size: 20px;
+}
+a {
+  font-family: "Signika Negative";
+  font-size: 20px;
+  text-decoration: none;
+}
+
+/* Global styles */
+body {
+  background-color: #090a0b;
+}
 /* Navbar */
 
 .navbar {
@@ -116,79 +141,6 @@ header {
 }
 /*End animation bat*/
 
-/* ======== Footer ======== */
-.footer-img {
-  background-color: transparent;
-  background-image: url("../img/footer-pumpkins.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: bottom;
-  min-height: 150px;
-}
-
-.footer-container {
-  display: flex;
-}
-
-.social-networks {
-  display: flex;
-  justify-content: center;
-  margin: 0;
-  padding-top: 30px;
-  padding-bottom: 5px;
-  width: 100%;
-}
-
-.social-networks ul {
-  padding: 0;
-  list-style-type: none;
-  display: flex;
-  justify-content: center;
-  margin: 0;
-}
-
-.social-networks li {
-  margin: 0 auto;
-  padding: 0;
-  font-size: 200%;
-  margin: 0 10px;
-}
-
-.footer-content-container {
-  display: flex;
-  align-items: flex-end;
-}
-
-.footer-credits {
-  color: #39ff14;
-  padding-right: 20px;
-  margin-bottom: 10px;
-  font-size: 14px;
-}
-
-.footer-icon i {
-  transition: all 0.5s;
-  color: #39ff14;
-  opacity: 0.8;
-  font-size: 28px;
-}
-
-.footer-icon i:hover {
-  filter: drop-shadow(0 0 10px #39ff14) drop-shadow(0 0 20px #39ff14);
-  opacity: 1;
-  transform: translateY(-20%);
-}
-
-.form-control {
-  background-color: rgba(255, 255, 255, 0.3);
-  border: 2px solid #ff8c00;
-  color: #000;
-}
-
-.dark-text {
-  color: #000;
-}
-
 /* ======== Media queries ======== */
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media screen and (max-width: 428px) {
@@ -223,19 +175,8 @@ header {
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-  .footer-img {
-    min-height: 250px;
-  }
-  .contact-form {
-    background-image: url("../img/contactForm/contact-form-img.jpg");
-    background-size: cover;
-    background-position: right;
-  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-  .footer-img {
-    min-height: 350px;
-  }
 }
