@@ -22,7 +22,7 @@
 * Tourists: Visitors to Dublin looking for a memorable and unique Halloween experience.
 * Costume Enthusiasts: Individuals who want to showcase their Halloween costumes and get inspired by others' creative outfits.
 * Event Organisers: Event organisers looking to promote their Halloween-themed events to a wider audience and provide location and ticket information.
-* Anyone with Spooky Stories: People who want to share their spooky tales or have questions about the app and its features.
+* Anyone with Sp00ky Stories: People who want to share their sp00ky tales or have questions about the app and its features.
 
 ## How to Use
 
