@@ -21,8 +21,8 @@
 * Local Residents: Dublin residents seeking Halloween events in their area, whether it's haunted houses, costume parties, or family-friendly activities.
 * Tourists: Visitors to Dublin looking for a memorable and unique Halloween experience.
 * Costume Enthusiasts: Individuals who want to showcase their Halloween costumes and get inspired by others' creative outfits.
-* Event Organisers: Event organizers looking to promote their Halloween-themed events to a wider audience and provide location and ticket information.
-* Anyone with Spooky Stories: People who want to share their spooky tales or have questions about the app and its features.
+* Event Organisers: Event organisers looking to promote their Halloween-themed events to a wider audience and provide location and ticket information.
+* Anyone with Sp00ky Stories: People who want to share their sp00ky tales or have questions about the app and its features.
 
 ## How to Use
 
@@ -50,42 +50,51 @@ Have a sp00ktacular time using "Witchway Tracker" and make the most of the Hallo
 - [<span style="color:#ff6100">Screenshots](#screenshots)
 
 
-# UX
+# User Experience (UX)
 
-## Website owner business goals
+## User stories
 
-* Attract and Engage Users: To draw in and captivate Halloween enthusiasts with engaging content and event listings.
-* Monetization: Generate revenue through ads, affiliate marketing, ticket sales, or premium content
-* Increase Website Traffic: Boost overall site visits, especially during the Halloween season.
+* As a user, I want to immediately be able to understand the application on first glance and to navigate around without difficulty.
+* As a Dublin resident, I want to find nearby Halloween events such as haunted houses or costume parties so that I can plan my Halloween celebrations conveniently.
+* As a tourist visiting Dublin during Halloween, I want to discover unique and memorable Halloween events in the area, allowing me to make the most of my visit.
+* As a costume enthusiast, I want to browse through the application's galleries to gain inspiration from others' Halloween costumes.
+* As a costume enthusiast, I want to showcase my own creative outfits to the community.
+* As a person with sp00ky stories and experiences, I want to share my chilling Halloween tales.
+* As a user, I want to be able to connect with the someone for any enquiries or feedback.
+* As a user, I want to experience a sp00ky aesthetic that adds to the Halloween atmosphere and enjoy an engaging and fun user interface while using the application.
+* As a parent in Dublin, I want to use the application to find family-friendly Halloween activities and events to enjoy with my children during the Halloween season.
 
-## User goals
+## Colour scheme
 
-### New user goals:
-- Find Halloween-related events in your city
-- stay up to date with the latest trends in costumes
-- being able to be part of a community
+![Colour scheme used](documentation/colours.png)
 
-### Returning user goals:
-- Find Halloween-related events in your city
-- get inspiration for your costumes and places where you can hold your events
-- be active in the community by sharing content on social media
+The choice of colors for a Halloween-themed website is crucial for creating the right atmosphere and enhancing the overall user experience. Here's an explanation for why the colors you've chosen are well-suited for a Halloween website:
 
-## Structure of the website
+#000 (Black):
+* Black is often associated with darkness, mystery, and the unknown, making it a perfect choice for Halloween.
+* It represents the night, which is when many Halloween events and traditions take place, such as trick-or-treating and haunted houses.
+* Black also creates a spooky and eerie backdrop, which sets the stage for the Halloween theme.
 
-The website is designed to be easy and user-friendy on all type of devices. On desktop, tablet or mobile device there should be no difference for a user to have a fantastic experience. All parts are designed to achieve maximum user satisfaction. User will get some interaction from the interface as links and buttons will have a hover effects.
+#ff6100 (Pumpkin Orange):
+* Orange is closely linked to Halloween because of pumpkins, a prominent symbol of the holiday. The bright orange color of pumpkins is iconic and evokes a festive, Halloween spirit.
+* The use of a vibrant and energetic shade of orange, adds warmth and excitement to the design, reminiscent of the glowing jack-o'-lanterns that adorn Halloween celebrations.
+
+#ff8c00 (Spooky Orange):
+* This slightly darker shade of orange adds depth and contrast to the design.
+* It complements the pumpkin orange and adds a sense of warmth and energy while retaining a spooky and mysterious feel.
+
+#39ff14 (Bright Green):
+* Bright green is reminiscent of eerie, supernatural elements often associated with Halloween, like witches, monsters, and eerie creatures.
+* It contrasts well with the black background and creates a visual pop, making it an excellent choice for call-to-action buttons or highlights on the website.
+
+#fff (White):
+* White serves as a striking contrast to the other darker colors and helps maintain readability, ensuring that text and content are easily visible.
+
+## Imagery
+
+The images used in the "Witchway Tracker" app are of paramount importance as they serve to visually engage and immerse users in the Halloween experience. High-quality and compelling images of Halloween events, costumes, and the overall atmosphere play a crucial role in capturing the essence of the holiday. These images help users preview and understand the events, locations, and activities available in Dublin during Halloween, making informed choices about which events to attend. Additionally, user-generated costume photos in the galleries foster a sense of community and inspire creativity among costume enthusiasts. The images set the tone, build anticipation, and enhance the overall user experience, making the app more inviting and exciting for all users, whether they are local residents, tourists, costume enthusiasts, or event organisers.
 
 ## Surface
-
-### Colors
-Main colours used in a project:
-* background color: #FF8C00
-* font color: #FFFFFF
-* link color: #FF6100
-* Details: #333333
-* Details: #000000
-* Details:#39ff14
-
-![Colors](./assets/img/wireframes/color.png)
 
 ### Fonts 
 
@@ -147,11 +156,6 @@ The website has below features:
 * Contact form is a main part on this site. User can contact by filling a form with interesting topic.
 
 
-##  Future implementations
-
-* 
-* 
-* 
 
 [<span style="color:#ff6100">Back to Table of contents](#table-of-contents)
 
@@ -237,6 +241,95 @@ The website has below features:
 * As a Users easily find the information they are looking for about events
 * As a user I have a gallery that helps me with inspiration for my costume
 
+### Tests
+
+  <details>
+  <summary>General</summary>
+
+  |Action | Expected behavious | Result|
+  |-------|--------------------|-------|
+  |Copy url of the browser and paste it in browser. Press enter | Browser should load index.html | Pass |
+  |Scale up the window | The contentent should not stretch over a certain size | Pass |
+  |Scale down the window | The contentent should be visible without having to scroll horizontally | Pass |
+
+  </details>
+
+  <details>
+  <summary>Footer</summary>
+
+  |Action | Expected behavious | Result|
+  |-------|--------------------|-------|
+  |Click on the LinkedIn icon in the footer | It should open LinkedIn in a new tab | Pass |
+  |Click on the Twitter icon in the footer | It should open Facebook in a new tab | Pass |
+  |Click on the Instagram icon in the footer | It should open Facebook in a new tab | Pass |
+  |Click on the GitHub icon in the footer | It should open Facebook in a new tab | Pass |
+  |In small screens change for two lines  | Pass |
+
+  </details>
+
+  <details>
+  <summary>Pages</summary>
+
+  |Action | Expected behavious | Result|
+  |-------|--------------------|-------|
+  |When you press the button on the home page must go to events page  | Pass |
+  |When you press some image on gallery page must open a carrossel  | Pass |
+  |When the user start fill in the contact form appear is mandatory to fill in the fields | Pass |
+  |When the user click on the submit button must appear a mensage submited | Pass |
+  |When the user click on burguer nav bar must open down   | Pass |
+  |When the user click on the pages links oh nav bar going to the select page | Pass |
+
+  </details>
+
+### Performance
+
+We have tested the performance in chrome, using lighthouse:
+
+* Performance rate:
+
+   ![Performance]()
+
+<details>
+  <summary> Desktop </summary>
+  
+* Home page:
+
+   ![Desktop - home page](/assets/img/screenshoots/performer_test/hero_page_descktop.png)
+
+* Events page:
+
+   ![Desktop - events page]()
+
+* Gallery Page:
+
+   ![Desktop - gallery page]()
+
+* Contact Page:
+
+   ![Desktop - contact page](/assets/img/screenshoots/performer_test/contact_page_descktop.png)
+
+</details>
+
+<details>
+  <summary> Mobile </summary>
+  
+* Home page:
+
+   ![Mobile - home page](/assets/img/screenshoots/performer_test/hero_page_mobile.png)
+
+* Events page:
+
+   ![Mobile - events page]()
+
+* Gallery Page:
+
+   ![Mobile - gallery page]()
+
+* Contact Page:
+
+   ![Mobile - contact page](/assets/img/screenshoots/performer_test/contact_page_mobile.png)
+
+</details>
 
 ## Lighthouse testing
 
@@ -281,4 +374,6 @@ https://www.pexels.com/photo/decoration-made-with-human-skulls-4997839/ (skull -
 ## screenshots
 
 ![Home](./assets/img/screenshoots/Macbook%20Pro-1697914876350.jpeg)
-![Home ipad 12](./assets/img/screenshoots/iPad-1697914876389.jpeg)
+![contact](./assets/img/screenshoots/Nest%20Hub-1697961992568.jpeg)
+![events](./assets/img/screenshoots/Samsung%20Galaxy%20S20%20Ultra-1697961964626.jpeg)
+![Home2](./assets/img/screenshoots/iPad-1697961974352.jpeg)

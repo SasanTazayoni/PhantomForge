@@ -1,16 +1,16 @@
 
 // -------CAROUSEL CONTROLS -----
-function removeStcikyFooter() {
-    let ww = document.body.clientWidth;
-    let carousel = document.getElementById("carousel");
-    if (ww > 768) {
-        $('footer').removeClass('fixed-bottom');
-    } else if (carousel.style.display === "block" && ww < 768) {
-        $('.footer-img').addClass('fixed-bottom');
-    } else {
-        $('footer').removeClass('fixed-bottom');
-    }
-}
+// function removeStcikyFooter() {
+//     let ww = document.body.clientWidth;
+//     let carousel = document.getElementById("carousel");
+//     if (ww > 768) {
+//         $('footer').removeClass('fixed-bottom');
+//     } else if (carousel.style.display === "block" && ww < 768) {
+//         $('.footer-img').addClass('fixed-bottom');
+//     } else {
+//         $('footer').removeClass('fixed-bottom');
+//     }
+// }
 
 // Bootstrap script for carousel
 const myCarouselElement = document.querySelector('#carouselExampleIndicators')
