@@ -54,6 +54,7 @@ GALLERY
   border-radius: 10px;
   border: 1px solid black;
   cursor: pointer;
+  opacity: 0.8;
 }
 
 .div-img {
@@ -66,6 +67,7 @@ GALLERY
 .img-gallery:hover {
   transform: scale(1.05);
   filter: drop-shadow(0 0 8px #39ff14);
+  opacity: 1;
 }
 
 /* Carousel */
@@ -73,6 +75,7 @@ GALLERY
 #carousel {
   display: none;
   width: 60%;
+  transition: all .2s;
 }
 
 #carousel:hover {
