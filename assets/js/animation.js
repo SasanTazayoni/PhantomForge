@@ -1,27 +1,39 @@
-console.log("Hello Animation");
 document.addEventListener("DOMContentLoaded", function () {
-    
-    let check = 0;
-    // flying witch
-    $('#switch').on('mouseover', function () {
-        if (check === 0) {
-            $('#witch-box').css('display', 'block');
-            let start = Date.now();
 
-            let timer = setInterval(function () {
-                let timePassed = Date.now() - start;
-
-                witch.style.left = timePassed / 5 + 'px';
-
-                if (timePassed > 8000) clearInterval(timer);
-            }, 20);
-            setTimeout(function () {
-                $('#witch-box').css('display', 'none');
-            }, 8000);
-
-            check += 1;
-        }
-    });
-
-    // next animation here
+    skeletonsAnime();
+    setInterval(function () {
+        lurking();
+    }, 12000);
 });
+
+function skeletonsAnime() {
+
+    let ww = document.body.clientWidth;
+    if (ww > 768) {
+        $('#skeleton-box').css('display', 'block');
+
+        setTimeout(function () {
+            $('#skeleton-box').css('display', 'none');
+        }, 4000);
+
+        setTimeout(function () {
+            $('#skeleton-box-two').css('display', 'block');
+        }, 8000);
+
+        setTimeout(function () {
+            $('#skeleton-box-two').css('display', 'none');
+        }, 12000);
+    }
+}
+
+function lurking() {
+
+    let ww = document.body.clientWidth;
+    if (ww > 348) {
+        $('#lurking-box').css('display', 'block');
+
+        setTimeout(function () {
+            $('#lurking-box').css('display', 'none');
+        }, 4000);
+    }
+}
