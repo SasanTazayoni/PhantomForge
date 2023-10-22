@@ -131,7 +131,8 @@ The website has below features:
     This has a spooky glow effect around both the website name and the pumpkin logo, as shown in the image below.  
     ![Navbar glow effect](/documentation/features/navbar-glow.png)
 
-  - On right side there are four links or burger menu. It contains: - Home - Events - Gallery - Contact  
+  - On right side there are four links or burger menu. It contains: - Home - Events - Gallery - Contact. When the buttons are hovered over, they display an eerie green glow effect.  
+    ![Menu glow effect](/documentation/features/menu-glow.png)  
     ![Menu tablet](/documentation/features/navbar-responsive-2.png)
 
 ## Footer
@@ -156,14 +157,23 @@ The website has below features:
 ## Gallery
 
 - The gallery page showcases some of the previous events from previous years at WitchWay Tracker including people dressed in costumes and various event locations. It features a glow effect around the gallery photos and a carosel which can be toggled on or off to view the individual images in a larger format.  
-  ![Gallery page](/documentation/features/gallery-page.png)
+  ![Gallery page](/documentation/features/gallery-page.png)  
+  ![Gallery carosel](/documentation/features/gallery-carosel.png)  
+  ![Gallery carosel](/documentation/features/gallery-glow.png)
 
 ## Contact
 
-- The contact form can be filled out by users to ask questions, get more information or share interesting or spooky stories.  
-  ![Contact page](/documentation/features/contact-page.png)
+- The contact form can be filled out by users to ask questions, get more information or share interesting or spooky stories. On submission of the form, the user recieves a "submission successful" message  
+  ![Contact page](/documentation/features/contact-page.png)  
+  ![Contact page](/documentation/features/form-submission.png)
 
-[<span style="color:#ff6100">Back to Table of contents](#table-of-contents)
+# Future Features
+
+- User can upload their own pictures
+- Users can add their own events
+- A backend for the emails
+- Real social media accounts
+- Event page can be modified to be in different cities
 
 # Wireframes
 
@@ -189,41 +199,16 @@ The wireframes do not fully correspond with the end product due to multiple chan
 
 # Technologies used
 
-### HTML5
-
-- As a structure language.
-
-### CSS
-
-- As a style language.
-
-### Bootstrap
-
-- Bootstrap@5.1.3 as a CSS framework to keep responsive, mobile first aproach.
-
-### Google fonts
-
-- As a font resource.
-
-### GitHub
-
-- As a software hosting platform to keep project in a remote location.
-
-### Git
-
-- As a version-control system tracking.
-
-### Gitpod
-
-- As a development hosting platform.
-
-### Miro
-
-- As a wireframing tool.
-
-### GIMP
-
-- As an image editor.
+- HTML5 as a structure language.
+- CSS as a style language.
+- Bootstrap - Bootstrap@5.1.3 as a CSS framework to keep responsive, mobile first aproach.
+- We used the "Creative" template by StartBootstrap (https://startbootstrap.com/theme/creative)
+- Google fonts as a font resource.
+- GitHub as a software hosting platform to keep project in a remote location.
+- Git as a version-control system tracking.
+- Gitpod as a development hosting platform.
+- Miro as a planning, organisation and wireframing tool.
+- GIMP as an image editor.
 
 [<span style="color:#ff6100">Back to Table of contents](#table-of-contents)
 
@@ -345,9 +330,13 @@ We have tested the performance in chrome, using lighthouse:
 
 ## Lighthouse testing
 
+Lighthouse testing came out to be at least 86 in all areas so is considered to pass.
+![Lighthouse testing](/documentation/features/lighthouse.png)
+
 ## PowerMapper testing for browser compatibility (leave for Sasan)
 
 ## Bugs
+
 
 # Deployment
 
@@ -359,6 +348,7 @@ We have tested the performance in chrome, using lighthouse:
 6. Click the save button.
 7. Github pages will build your website with the code supplied and begin hosting it when it is completed - the process usually takes a few minutes.
 8. The website URL will now be visible on the green bar under the section header. This will remain there permanently and you can refer back to it at any time.
+
 # Credits
 
 Thanks to the Haunted Hackers team for a great experience and putting the project together:
