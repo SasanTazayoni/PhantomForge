@@ -90,9 +90,9 @@ The choice of colors for a Halloween-themed website is crucial for creating the 
 #fff (White):
 * White serves as a striking contrast to the other darker colors and helps maintain readability, ensuring that text and content are easily visible.
 
-## Structure of the website
+## Imagery
 
-The website is designed to be easy and user-friendy on all type of devices. On desktop, tablet or mobile device there should be no difference for a user to have a fantastic experience. All parts are designed to achieve maximum user satisfaction. User will get some interaction from the interface as links and buttons will have a hover effects.
+The images used in the "Witchway Tracker" app are of paramount importance as they serve to visually engage and immerse users in the Halloween experience. High-quality and compelling images of Halloween events, costumes, and the overall atmosphere play a crucial role in capturing the essence of the holiday. These images help users preview and understand the events, locations, and activities available in Dublin during Halloween, making informed choices about which events to attend. Additionally, user-generated costume photos in the galleries foster a sense of community and inspire creativity among costume enthusiasts. The images set the tone, build anticipation, and enhance the overall user experience, making the app more inviting and exciting for all users, whether they are local residents, tourists, costume enthusiasts, or event organisers.
 
 ## Surface
 
