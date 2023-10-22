@@ -8,19 +8,19 @@
 
 ## Key Features
 
-- Event Locator: Use the power of the Google Maps API to pinpoint the locations of Halloween-based events throughout the Dublin area. Each event is represented by a clickable pin that reveals essential information, such as date, time, ticket prices, and location.
-- Galleries: Explore a gallery of pictures showcasing attendees and their Halloween costumes. Get inspired or share your own fantastic costume creations with the Witchway Tracker community.
-- Contact Form: Have questions, feedback, or a chilling Halloween story to share? Use the contact form on our app to get in touch with us. We are here to assist and appreciate your sp00ky tales.
+![.](/favicon-16x16.png) Event Locator: Use the power of the Google Maps API to pinpoint the locations of Halloween-based events throughout the Dublin area. Each event is represented by a clickable pin that reveals essential information, such as date, time, ticket prices, and location.  
+![.](/favicon-16x16.png) Galleries: Explore a gallery of pictures showcasing attendees and their Halloween costumes. Get inspired or share your own fantastic costume creations with the Witchway Tracker community.  
+![.](/favicon-16x16.png) Contact Form: Have questions, feedback, or a chilling Halloween story to share? Use the contact form on our app to get in touch with us. We are here to assist and appreciate your sp00ky tales.
 
 ## Target Audience
 
 "Witchway Tracker" is designed for Halloween enthusiasts and event-goers who want to make the most of the Halloween season in Dublin. Its target audience includes:
 
-- Local Residents: Dublin residents seeking Halloween events in their area, whether it's haunted houses, costume parties, or family-friendly activities.
-- Tourists: Visitors to Dublin looking for a memorable and unique Halloween experience.
-- Costume Enthusiasts: Individuals who want to showcase their Halloween costumes and get inspired by others' creative outfits.
-- Event Organisers: Event organisers looking to promote their Halloween-themed events to a wider audience and provide location and ticket information.
-- Anyone with Sp00ky Stories: People who want to share their sp00ky tales or have questions about the app and its features.
+![.](/favicon-16x16.png) Local Residents: Dublin residents seeking Halloween events in their area, whether it's haunted houses, costume parties, or family-friendly activities.  
+![.](/favicon-16x16.png) Tourists: Visitors to Dublin looking for a memorable and unique Halloween experience.  
+![.](/favicon-16x16.png) Costume Enthusiasts: Individuals who want to showcase their Halloween costumes and get inspired by others' creative outfits.  
+![.](/favicon-16x16.png) Event Organisers: Event organisers looking to promote their Halloween-themed events to a wider audience and provide location and ticket information.  
+![.](/favicon-16x16.png) Anyone with Sp00ky Stories: People who want to share their sp00ky tales or have questions about the app and its features.
 
 ## How to Use
 
@@ -53,15 +53,15 @@ Have a sp00ktacular time using "Witchway Tracker" and make the most of the Hallo
 
 ## User stories
 
-- As a user, I want to immediately be able to understand the application on first glance and to navigate around without difficulty.
-- As a Dublin resident, I want to find nearby Halloween events such as haunted houses or costume parties so that I can plan my Halloween celebrations conveniently.
-- As a tourist visiting Dublin during Halloween, I want to discover unique and memorable Halloween events in the area, allowing me to make the most of my visit.
-- As a costume enthusiast, I want to browse through the application's galleries to gain inspiration from others' Halloween costumes.
-- As a costume enthusiast, I want to showcase my own creative outfits to the community.
-- As a person with sp00ky stories and experiences, I want to share my chilling Halloween tales.
-- As a user, I want to be able to connect with the someone for any enquiries or feedback.
-- As a user, I want to experience a sp00ky aesthetic that adds to the Halloween atmosphere and enjoy an engaging and fun user interface while using the application.
-- As a parent in Dublin, I want to use the application to find family-friendly Halloween activities and events to enjoy with my children during the Halloween season.
+![.](/favicon-16x16.png) As a user, I want to immediately be able to understand the application on first glance and to navigate around without difficulty.  
+![.](/favicon-16x16.png) As a Dublin resident, I want to find nearby Halloween events such as haunted houses or costume parties so that I can plan my Halloween celebrations conveniently.  
+![.](/favicon-16x16.png) As a tourist visiting Dublin during Halloween, I want to discover unique and memorable Halloween events in the area, allowing me to make the most of my visit.  
+![.](/favicon-16x16.png) As a costume enthusiast, I want to browse through the application's galleries to gain inspiration from others' Halloween costumes.  
+![.](/favicon-16x16.png) As a costume enthusiast, I want to showcase my own creative outfits to the community.  
+![.](/favicon-16x16.png) As a person with sp00ky stories and experiences, I want to share my chilling Halloween tales.  
+![.](/favicon-16x16.png) As a user, I want to be able to connect with the someone for any enquiries or feedback.  
+![.](/favicon-16x16.png) As a user, I want to experience a sp00ky aesthetic that adds to the Halloween atmosphere and enjoy an engaging and fun user interface while using the application.  
+![.](/favicon-16x16.png) As a parent in Dublin, I want to use the application to find family-friendly Halloween activities and events to enjoy with my children during the Halloween season.
 
 ## Colour scheme
 
@@ -71,28 +71,28 @@ The choice of colors for a Halloween-themed website is crucial for creating the 
 
 #000 (Black):
 
-- Black is often associated with darkness, mystery, and the unknown, making it a perfect choice for Halloween.
-- It represents the night, which is when many Halloween events and traditions take place, such as trick-or-treating and haunted houses.
-- Black also creates a spooky and eerie backdrop, which sets the stage for the Halloween theme.
+![.](/favicon-16x16.png) Black is often associated with darkness, mystery, and the unknown, making it a perfect choice for Halloween.  
+![.](/favicon-16x16.png) It represents the night, which is when many Halloween events and traditions take place, such as trick-or-treating and haunted houses.  
+![.](/favicon-16x16.png) Black also creates a spooky and eerie backdrop, which sets the stage for the Halloween theme.
 
 #ff6100 (Pumpkin Orange):
 
-- Orange is closely linked to Halloween because of pumpkins, a prominent symbol of the holiday. The bright orange color of pumpkins is iconic and evokes a festive, Halloween spirit.
-- The use of a vibrant and energetic shade of orange, adds warmth and excitement to the design, reminiscent of the glowing jack-o'-lanterns that adorn Halloween celebrations.
+![.](/favicon-16x16.png) Orange is closely linked to Halloween because of pumpkins, a prominent symbol of the holiday. The bright orange color of pumpkins is iconic and evokes a festive, Halloween spirit.  
+![.](/favicon-16x16.png) The use of a vibrant and energetic shade of orange, adds warmth and excitement to the design, reminiscent of the glowing jack-o'-lanterns that adorn Halloween celebrations.
 
 #ff8c00 (Spooky Orange):
 
-- This slightly darker shade of orange adds depth and contrast to the design.
-- It complements the pumpkin orange and adds a sense of warmth and energy while retaining a spooky and mysterious feel.
+![.](/favicon-16x16.png) This slightly darker shade of orange adds depth and contrast to the design.  
+![.](/favicon-16x16.png) It complements the pumpkin orange and adds a sense of warmth and energy while retaining a spooky and mysterious feel.
 
 #39ff14 (Bright Green):
 
-- Bright green is reminiscent of eerie, supernatural elements often associated with Halloween, like witches, monsters, and eerie creatures.
-- It contrasts well with the black background and creates a visual pop, making it an excellent choice for call-to-action buttons or highlights on the website.
+![.](/favicon-16x16.png) Bright green is reminiscent of eerie, supernatural elements often associated with Halloween, like witches, monsters, and eerie creatures.  
+![.](/favicon-16x16.png) It contrasts well with the black background and creates a visual pop, making it an excellent choice for call-to-action buttons or highlights on the website.
 
 #fff (White):
 
-- White serves as a striking contrast to the other darker colors and helps maintain readability, ensuring that text and content are easily visible.
+![.](/favicon-16x16.png) White serves as a striking contrast to the other darker colors and helps maintain readability, ensuring that text and content are easily visible.
 
 ## Imagery
 
@@ -102,13 +102,13 @@ The images used in the "Witchway Tracker" app are of paramount importance as the
 
 Headings - [Creepster]():
 
-- Style: Creepy, spooky, and decorative.
-- Use: Often used for Halloween-themed or horror-related content. Its distinctive style makes it suitable for headlines and titles in designs that require a playful or spooky aesthetic.
+![.](/favicon-16x16.png) Style: Creepy, spooky, and decorative.  
+![.](/favicon-16x16.png) Use: Often used for Halloween-themed or horror-related content. Its distinctive style makes it suitable for headlines and titles in designs that require a playful or spooky aesthetic.
 
 Body text - [Signika Negative]():
 
-- Style: Clean, modern, and highly readable.
-- Use: A sans-serif font that's great for body text and general readability. It offers good legibility and is commonly used for paragraphs, articles, and other long-form text.
+![.](/favicon-16x16.png) Style: Clean, modern, and highly readable.  
+![.](/favicon-16x16.png) Use: A sans-serif font that's great for body text and general readability. It offers good legibility and is commonly used for paragraphs, articles, and other long-form text.
 
 The combination of a decorative and playful font for headers (Creepster) with a clean and readable font for body text (Signika Negative) is a good choice, as it creates a contrast that enhances the overall design while maintaining readability and visual appeal.
 
@@ -121,59 +121,57 @@ The website has below features:
 
 ## Navigation bar
 
-- The navigation bar is visible on the top of each page of the website. It is fully responsive on different screen sizes and will adapt to mobile devices by changing into a burger menu, as shown in the image below.
+![.](/favicon-16x16.png) The navigation bar is visible on the top of each page of the website. It is fully responsive on different screen sizes and will adapt to mobile devices by changing into a burger menu, as shown in the image below.
 
 ![Menu responsive](/documentation/features/navbar-responsive.png)
 
-- Navigation scheme:
+Navigation scheme:
 
-  - On left side there is the website name which can be used as navigation link to the main page.
-    This has a spooky glow effect around both the website name and the pumpkin logo, as shown in the image below.  
-    ![Navbar glow effect](/documentation/features/navbar-glow.png)
+![.](/favicon-16x16.png) On left side there is the website name which can be used as navigation link to the main page.
+This has a spooky glow effect around both the website name and the pumpkin logo, as shown in the image below.  
+ ![Navbar glow effect](/documentation/features/navbar-glow.png)
 
-  - On right side there are four links or burger menu. It contains: - Home - Events - Gallery - Contact. When the buttons are hovered over, they display an eerie green glow effect.  
-    ![Menu glow effect](/documentation/features/menu-glow.png)  
-    ![Menu tablet](/documentation/features/navbar-responsive-2.png)
+![.](/favicon-16x16.png) On right side there are four links or burger menu. It contains: - Home - Events - Gallery - Contact. When the buttons are hovered over, they display an eerie green glow effect.  
+ ![Menu glow effect](/documentation/features/menu-glow.png)  
+ ![Menu tablet](/documentation/features/navbar-responsive-2.png)
 
 ## Footer
 
-- The footer consists of a spooky pumpkin banner with team name, year of website creation and social media and github repository links. The footer is consistent on all pages (except the hero page where it would be distracting) to add consistency to the whole site and tie the theme together. The footer icons have a glow effect that can be seen when hovering over them. The footer itself is fully responsive on different screen sizes.
-  ![Footer](/documentation/features/footer.png)
+![.](/favicon-16x16.png) The footer consists of a spooky pumpkin banner with team name, year of website creation and social media and github repository links. The footer is consistent on all pages (except the hero page where it would be distracting) to add consistency to the whole site and tie the theme together. The footer icons have a glow effect that can be seen when hovering over them. The footer itself is fully responsive on different screen sizes.
+![Footer](/documentation/features/footer.png)
 
 ## Home
 
-- ### Hero section
-
-  - The home page of the website contains a large Hero image to attract the attention of the user. The image has spooky animations of flickering lanterns and glowing halloween pumpkins. It has the name of the website and a call to action button which links to the events page.
+![.](/favicon-16x16.png) The home page of the website contains a large Hero image to attract the attention of the user. The image has spooky animations of flickering lanterns and glowing halloween pumpkins. It has the name of the website and a call to action button which links to the events page.
 
 ![Hero home page](/documentation/features/hero-page.png)
 
 ## Events
 
-- The events page contains a map where you can see the different Halloween events happening in Dublin. Each pin on the map is represented by a halloween pumpkin and clicking on a pin shows the details of the spooky event with a link that opens the event in a new tab.  
-  ![Events page](/documentation/features/event-page.png)  
-  ![Events map](/documentation/features/events-map.png)
+![.](/favicon-16x16.png) The events page contains a map where you can see the different Halloween events happening in Dublin. Each pin on the map is represented by a halloween pumpkin and clicking on a pin shows the details of the spooky event with a link that opens the event in a new tab.  
+ ![Events page](/documentation/features/event-page.png)  
+ ![Events map](/documentation/features/events-map.png)
 
 ## Gallery
 
-- The gallery page showcases some of the previous events from previous years at WitchWay Tracker including people dressed in costumes and various event locations. It features a glow effect around the gallery photos and a carosel which can be toggled on or off to view the individual images in a larger format.  
-  ![Gallery page](/documentation/features/gallery-page.png)  
-  ![Gallery carosel](/documentation/features/gallery-carosel.png)  
-  ![Gallery carosel](/documentation/features/gallery-glow.png)
+![.](/favicon-16x16.png) The gallery page showcases some of the previous events from previous years at WitchWay Tracker including people dressed in costumes and various event locations. It features a glow effect around the gallery photos and a carosel which can be toggled on or off to view the individual images in a larger format.  
+ ![Gallery page](/documentation/features/gallery-page.png)  
+ ![Gallery carosel](/documentation/features/gallery-carosel.png)  
+ ![Gallery carosel](/documentation/features/gallery-glow.png)
 
 ## Contact
 
-- The contact form can be filled out by users to ask questions, get more information or share interesting or spooky stories. On submission of the form, the user recieves a "submission successful" message  
-  ![Contact page](/documentation/features/contact-page.png)  
-  ![Contact page](/documentation/features/form-submission.png)
+![.](/favicon-16x16.png) The contact form can be filled out by users to ask questions, get more information or share interesting or spooky stories. On submission of the form, the user recieves a "submission successful" message  
+ ![Contact page](/documentation/features/contact-page.png)  
+ ![Contact page](/documentation/features/form-submission.png)
 
 # Future Features
 
-- User can upload their own pictures
-- Users can add their own events
-- A backend for the emails
-- Real social media accounts
-- Event page can be modified to be in different cities
+![.](/favicon-16x16.png) User can upload their own pictures  
+![.](/favicon-16x16.png) Users can add their own events  
+![.](/favicon-16x16.png) A backend for the emails  
+![.](/favicon-16x16.png) Real social media accounts  
+![.](/favicon-16x16.png) Event page can be modified to be in different cities
 
 # Wireframes
 
@@ -199,16 +197,16 @@ The wireframes do not fully correspond with the end product due to multiple chan
 
 # Technologies used
 
-- HTML5 as a structure language.
-- CSS as a style language.
-- Bootstrap - Bootstrap@5.1.3 as a CSS framework to keep responsive, mobile first aproach.
-- We used the "Creative" template by StartBootstrap (https://startbootstrap.com/theme/creative)
-- Google fonts as a font resource.
-- GitHub as a software hosting platform to keep project in a remote location.
-- Git as a version-control system tracking.
-- Gitpod as a development hosting platform.
-- Miro as a planning, organisation and wireframing tool.
-- GIMP as an image editor.
+![.](/favicon-16x16.png) HTML5 as a structure language.  
+![.](/favicon-16x16.png) CSS as a style language.  
+![.](/favicon-16x16.png) Bootstrap - Bootstrap@5.1.3 as a CSS framework to keep responsive, mobile first aproach.  
+![.](/favicon-16x16.png) We used the "Creative" template by StartBootstrap (https://startbootstrap.com/theme/creative)  
+![.](/favicon-16x16.png) Google fonts as a font resource.  
+![.](/favicon-16x16.png) GitHub as a software hosting platform to keep project in a remote location.  
+![.](/favicon-16x16.png) Git as a version-control system tracking.  
+![.](/favicon-16x16.png) Gitpod as a development hosting platform.  
+![.](/favicon-16x16.png) Miro as a planning, organisation and wireframing tool.  
+![.](/favicon-16x16.png) GIMP as an image editor.
 
 [<span style="color:#ff6100">Back to Table of contents](#table-of-contents)
 
@@ -220,23 +218,23 @@ We used Mozilla web developer tools and Chrome developer tools throughout the pr
 
 ## Compatibility testing
 
-Site was tested across multiple virtual mobile devices and browsers. I checked all supported devices in both Mozilla web developer tolls and Chrome developer tools.
+Site was tested across multiple virtual mobile devices and browsers. We checked all supported devices in both Mozilla web developer tools and Chrome developer tools.
 
-I tested on hardware devices such as: Lenovo ideapad with Ubuntu and Windows OS's, Lenovo smartphone with Android 7, Google pixel 3 with Android 11.
+We tested on hardware devices such as: Lenovo ideapad with Ubuntu and Windows OS's, Lenovo smartphone with Android 7, Google pixel 3 with Android 11.
 
 ## Code Validation
 
-At the and of the project We used two websites to validate a code
+At the end of the project we used the following websites to validate our code:
 
-- [<span style="color:#ff6100">W3C CSS Validator](https://jigsaw.w3.org/css-validator/) to validate CSS
-- [<span style="color:#ff6100">Nu Html Checker](https://validator.w3.org/) to test HTML
-- [<span style="color:#ff6100">JavaScript validator](https://esprima.org/demo/validate.html) to test JavaScript
+![.](/favicon-16x16.png) [<span style="color:#ff6100">W3C CSS Validator](https://jigsaw.w3.org/css-validator/) to validate CSS  
+![.](/favicon-16x16.png) [<span style="color:#ff6100">Nu Html Checker](https://validator.w3.org/) to test HTML  
+![.](/favicon-16x16.png) [<span style="color:#ff6100">JavaScript validator](https://esprima.org/demo/validate.html) to test JavaScript
 
 ## Testing user stories (how user stories are satisfied)
 
-- The application is intuitive and easy to use
-- As a Users easily find the information they are looking for about events
-- As a user I have a gallery that helps me with inspiration for my costume
+![.](/favicon-16x16.png) The application is intuitive and easy to use  
+![.](/favicon-16x16.png) As a Users easily find the information they are looking for about events  
+![.](/favicon-16x16.png) As a user I have a gallery that helps me with inspiration for my costume
 
 ### Tests
 
@@ -278,59 +276,9 @@ At the and of the project We used two websites to validate a code
 
   </details>
 
-### Performance
-
-We have tested the performance in chrome, using lighthouse:
-
-- Performance rate:
-
-  ![Performance]()
-
-<details>
-  <summary> Desktop </summary>
-  
-* Home page:
-
-![Desktop - home page](/assets/img/screenshoots/performer_test/hero_page_descktop.png)
-
-- Events page:
-
-  ![Desktop - events page]()
-
-- Gallery Page:
-
-  ![Desktop - gallery page]()
-
-- Contact Page:
-
-  ![Desktop - contact page](/assets/img/screenshoots/performer_test/contact_page_descktop.png)
-
-</details>
-
-<details>
-  <summary> Mobile </summary>
-  
-* Home page:
-
-![Mobile - home page](/assets/img/screenshoots/performer_test/hero_page_mobile.png)
-
-- Events page:
-
-  ![Mobile - events page]()
-
-- Gallery Page:
-
-  ![Mobile - gallery page]()
-
-- Contact Page:
-
-  ![Mobile - contact page](/assets/img/screenshoots/performer_test/contact_page_mobile.png)
-
-</details>
-
 ## Lighthouse testing
 
-Lighthouse testing came out to be at least 86 in all areas so is considered to pass.
+Lighthouse testing came out to be at least 86 in all areas so is considered to pass.  
 ![Lighthouse testing](/documentation/features/lighthouse.png)
 
 ## PowerMapper testing for browser compatibility (leave for Sasan)
@@ -343,41 +291,38 @@ The project was deployed on GitHub Pages. We used Gitpod and vscode as a develop
 
 To deploy a project We had to:
 
-- Log in to GitHub and click on repository to deploy ([<span style="color:#ff6100">PhantomForge](https://github.com/SasanTazayoni/PhantomForge))
-- select `Settings` and find GitHub Pages section at the very bottom of the page
-- from source select `none` and then `Milestone-Projects` branch.
-- click `save` and page was deployed after auto-refresh.
-  > Your site is published at (page link)
+![.](/favicon-16x16.png) Log in to GitHub and click on repository to deploy ([<span style="color:#ff6100">PhantomForge](https://github.com/SasanTazayoni/PhantomForge))  
+![.](/favicon-16x16.png) select `Settings` and find GitHub Pages section at the very bottom of the page  
+![.](/favicon-16x16.png) from source select `none` and then `Milestone-Projects` branch.  
+![.](/favicon-16x16.png) click `save` and page was deployed after auto-refresh.
+
+> Your site is published at (page link)
 
 To run localy:
 
-- Log in to GitHub and click on repository to download ([<span style="color:#ff6100">PhantomForge](https://github.com/SasanTazayoni/PhantomForge))
-- select `Code` and click Download the ZIP file.
-- after download you can extract the file and use it in your local environment
+![.](/favicon-16x16.png) Log in to GitHub and click on repository to download ([<span style="color:#ff6100">PhantomForge](https://github.com/SasanTazayoni/PhantomForge))  
+![.](/favicon-16x16.png) select `Code` and click Download the ZIP file.  
+![.](/favicon-16x16.png) after download you can extract the file and use it in your local environment
 
-- Code references: - Bootstrap theme:
-  "Creative" by StartBootstrap themes @ https://startbootstrap.com/theme/creative - Media references:
-  Pumpkin footer image:
-  https://stock.adobe.com/de/search?k=pumpkins&search_type=usertyped&asset_id=292952246
+## Code references:
 
-- Contact page image(s):
-  https://www.pexels.com/photo/photography-of-cat-at-full-moon-35888/ (cat)
-  https://www.pexels.com/photo/decoration-made-with-human-skulls-4997839/ (skull - _remove if not using_)
+![.](/favicon-16x16.png) Bootstrap theme: "Creative" by StartBootstrap themes @ https://startbootstrap.com/theme/creative
 
-## Screenshots
+## Media references:
 
-![Home](./assets/img/screenshoots/Macbook%20Pro-1697914876350.jpeg)
-![contact](./assets/img/screenshoots/Nest%20Hub-1697961992568.jpeg)
-![events](./assets/img/screenshoots/Samsung%20Galaxy%20S20%20Ultra-1697961964626.jpeg)
-![Home2](./assets/img/screenshoots/iPad-1697961974352.jpeg)
+![.](/favicon-16x16.png) Pumpkin footer image:  
+ https://stock.adobe.com/de/search?k=pumpkins&search_type=usertyped&asset_id=292952246
+
+![.](/favicon-16x16.png) Contact page image:  
+ https://www.pexels.com/photo/photography-of-cat-at-full-moon-35888/
 
 # Credits
 
 Thanks to the Haunted Hackers team for a great experience and putting the project together:
 
-* [Fernando](https://github.com/Goncalves95)
-* [Szymon](https://github.com/ObiOne84)
-* [Emanuel](https://github.com/EmanuelGustafzon)
-* [Richard](https://github.com/richard9106)
-* [Emily](https://github.com/dragon-fire-fly)
-* [Sasan](https://github.com/SasanTazayoni)
+![.](/favicon-16x16.png) [Fernando](https://github.com/Goncalves95)  
+![.](/favicon-16x16.png) [Szymon](https://github.com/ObiOne84)  
+![.](/favicon-16x16.png) [Emanuel](https://github.com/EmanuelGustafzon)  
+![.](/favicon-16x16.png) [Richard](https://github.com/richard9106)  
+![.](/favicon-16x16.png) [Emily](https://github.com/dragon-fire-fly)  
+![.](/favicon-16x16.png) [Sasan](https://github.com/SasanTazayoni)
