@@ -349,40 +349,16 @@ We have tested the performance in chrome, using lighthouse:
 
 ## Bugs
 
-## Deployment
+# Deployment
 
-The project was deployed on GitHub Pages. We used Gitpod and vscode as a development environment where We commited all changes to git version control system.
-
-To deploy a project We had to:
-
-- Log in to GitHub and click on repository to deploy ([<span style="color:#ff6100">PhantomForge](https://github.com/SasanTazayoni/PhantomForge))
-- select `Settings` and find GitHub Pages section at the very bottom of the page
-- from source select `none` and then `Milestone-Projects` branch.
-- click `save` and page was deployed after auto-refresh.
-  > Your site is published at (page link)
-
-To run localy:
-
-- Log in to GitHub and click on repository to download ([<span style="color:#ff6100">PhantomForge](https://github.com/SasanTazayoni/PhantomForge))
-- select `Code` and click Download the ZIP file.
-- after download you can extract the file and use it in your local environment
-
-- Code references: - Bootstrap theme:
-  "Creative" by StartBootstrap themes @ https://startbootstrap.com/theme/creative - Media references:
-  Pumpkin footer image:
-  https://stock.adobe.com/de/search?k=pumpkins&search_type=usertyped&asset_id=292952246
-
-- Contact page image(s):
-  https://www.pexels.com/photo/photography-of-cat-at-full-moon-35888/ (cat)
-  https://www.pexels.com/photo/decoration-made-with-human-skulls-4997839/ (skull - _remove if not using_)
-
-## screenshots
-
-![Home](./assets/img/screenshoots/Macbook%20Pro-1697914876350.jpeg)
-![contact](./assets/img/screenshoots/Nest%20Hub-1697961992568.jpeg)
-![events](./assets/img/screenshoots/Samsung%20Galaxy%20S20%20Ultra-1697961964626.jpeg)
-![Home2](./assets/img/screenshoots/iPad-1697961974352.jpeg)
-
+1. Log into [GitHub](https://github.com/).
+2. Locate the [repository](https://sasantazayoni.github.io/PhantomForge/).
+3. Locate the settings option along the options bar at the top of the page.
+4. Locate the 'Pages' option on the left side bar and click on it.
+5. Under the 'Branch' subheading there should be a drop-down menu - select 'Master' from the branch options.
+6. Click the save button.
+7. Github pages will build your website with the code supplied and begin hosting it when it is completed - the process usually takes a few minutes.
+8. The website URL will now be visible on the green bar under the section header. This will remain there permanently and you can refer back to it at any time.
 # Credits
 
 Thanks to the Haunted Hackers team for a great experience and putting the project together:
