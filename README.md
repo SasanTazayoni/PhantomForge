@@ -30,25 +30,6 @@ Have a sp00ktacular time using "Witchway Tracker" and make the most of the Hallo
 
 ![Screenshot of responsiveness](documentation/responsive.png)
 
-# Table of contents
-
-- [<span style="color:#ff6100">UX](#ux)
-
-  - [<span style="color:#ff6100">Website owner business goals](#website-owner-business-goals)
-  - [<span style="color:#ff6100">User goals](#user-goals)
-    - [<span style="color:#ff6100">New user goals](#new-user-goals)
-    - [<span style="color:#ff6100">Returning user goals](#returning-user-goals)
-  - [<span style="color:#ff6100">Structure of the website](#structure-of-the-website)
-  - [<span style="color:#ff6100">Surface](#surface)
-
-- [<span style="color:#ff6100">Features](#features)
-- [<span style="color:#ff6100">Wireframes](#wireframes)
-- [<span style="color:#ff6100">Technology](#technology)
-- [<span style="color:#ff6100">Testing](#testing)
-- [<span style="color:#ff6100">Deployment](#deployment)
-- [<span style="color:#ff6100">Credits](#credits)
-- [<span style="color:#ff6100">Screenshots](#screenshots)
-
 # User Experience (UX)
 
 ## User stories
@@ -208,8 +189,6 @@ The wireframes do not fully correspond with the end product due to multiple chan
 ![.](/favicon-16x16.png) Miro as a planning, organisation and wireframing tool.  
 ![.](/favicon-16x16.png) GIMP as an image editor.
 
-[<span style="color:#ff6100">Back to Table of contents](#table-of-contents)
-
 # Testing
 
 ## Functionality testing
@@ -281,40 +260,18 @@ At the end of the project we used the following websites to validate our code:
 Lighthouse testing came out to be at least 86 in all areas so is considered to pass.  
 ![Lighthouse testing](/documentation/features/lighthouse.png)
 
-## PowerMapper testing for browser compatibility (leave for Sasan)
-
 ## Bugs
 
-## Deployment
+# Deployment
 
-The project was deployed on GitHub Pages. We used Gitpod and vscode as a development environment where We commited all changes to git version control system.
-
-To deploy a project We had to:
-
-![.](/favicon-16x16.png) Log in to GitHub and click on repository to deploy ([<span style="color:#ff6100">PhantomForge](https://github.com/SasanTazayoni/PhantomForge))  
-![.](/favicon-16x16.png) select `Settings` and find GitHub Pages section at the very bottom of the page  
-![.](/favicon-16x16.png) from source select `none` and then `Milestone-Projects` branch.  
-![.](/favicon-16x16.png) click `save` and page was deployed after auto-refresh.
-
-> Your site is published at (page link)
-
-To run localy:
-
-![.](/favicon-16x16.png) Log in to GitHub and click on repository to download ([<span style="color:#ff6100">PhantomForge](https://github.com/SasanTazayoni/PhantomForge))  
-![.](/favicon-16x16.png) select `Code` and click Download the ZIP file.  
-![.](/favicon-16x16.png) after download you can extract the file and use it in your local environment
-
-## Code references:
-
-![.](/favicon-16x16.png) Bootstrap theme: "Creative" by StartBootstrap themes @ https://startbootstrap.com/theme/creative
-
-## Media references:
-
-![.](/favicon-16x16.png) Pumpkin footer image:  
- https://stock.adobe.com/de/search?k=pumpkins&search_type=usertyped&asset_id=292952246
-
-![.](/favicon-16x16.png) Contact page image:  
- https://www.pexels.com/photo/photography-of-cat-at-full-moon-35888/
+1. Log into [GitHub](https://github.com/).
+2. Locate the [repository](https://github.com/SasanTazayoni/PhantomForge).
+3. Locate the settings option along the options bar at the top of the page.
+4. Locate the 'Pages' option on the left side bar and click on it.
+5. Under the 'Branch' subheading there should be a drop-down menu - select 'Master' from the branch options.
+6. Click the save button.
+7. Github pages will build your website with the code supplied and begin hosting it when it is completed - the process usually takes a few minutes.
+8. The website URL will now be visible on the green bar under the section header. This will remain there permanently and you can refer back to it at any time.
 
 # Credits
 
