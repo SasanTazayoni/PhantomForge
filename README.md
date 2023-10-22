@@ -94,6 +94,20 @@ The choice of colors for a Halloween-themed website is crucial for creating the 
 
 The images used in the "Witchway Tracker" app are of paramount importance as they serve to visually engage and immerse users in the Halloween experience. High-quality and compelling images of Halloween events, costumes, and the overall atmosphere play a crucial role in capturing the essence of the holiday. These images help users preview and understand the events, locations, and activities available in Dublin during Halloween, making informed choices about which events to attend. Additionally, user-generated costume photos in the galleries foster a sense of community and inspire creativity among costume enthusiasts. The images set the tone, build anticipation, and enhance the overall user experience, making the app more inviting and exciting for all users, whether they are local residents, tourists, costume enthusiasts, or event organisers.
 
+## Typography
+
+Headings - [Creepster]():
+
+* Style: Creepy, spooky, and decorative.
+* Use: Often used for Halloween-themed or horror-related content. Its distinctive style makes it suitable for headlines and titles in designs that require a playful or spooky aesthetic.
+
+Body text - [Signika Negative]():
+
+* Style: Clean, modern, and highly readable.
+* Use: A sans-serif font that's great for body text and general readability. It offers good legibility and is commonly used for paragraphs, articles, and other long-form text.
+
+The combination of a decorative and playful font for headers (Creepster) with a clean and readable font for body text (Signika Negative) is a good choice, as it creates a contrast that enhances the overall design while maintaining readability and visual appeal.
+
 ## Surface
 
 ### Fonts 
