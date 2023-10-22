@@ -50,25 +50,19 @@ Have a sp00ktacular time using "Witchway Tracker" and make the most of the Hallo
 - [<span style="color:#ff6100">Screenshots](#screenshots)
 
 
-# UX
+# User Experience (UX)
 
-## Website owner business goals
+## User stories
 
-* Attract and Engage Users: To draw in and captivate Halloween enthusiasts with engaging content and event listings.
-* Monetization: Generate revenue through ads, affiliate marketing, ticket sales, or premium content
-* Increase Website Traffic: Boost overall site visits, especially during the Halloween season.
-
-## User goals
-
-### New user goals:
-- Find Halloween-related events in your city
-- stay up to date with the latest trends in costumes
-- being able to be part of a community
-
-### Returning user goals:
-- Find Halloween-related events in your city
-- get inspiration for your costumes and places where you can hold your events
-- be active in the community by sharing content on social media
+* As a user, I want to immediately be able to understand the application on first glance and to navigate around without difficulty.
+* As a Dublin resident, I want to find nearby Halloween events such as haunted houses or costume parties so that I can plan my Halloween celebrations conveniently.
+* As a tourist visiting Dublin during Halloween, I want to discover unique and memorable Halloween events in the area, allowing me to make the most of my visit.
+* As a costume enthusiast, I want to browse through the application's galleries to gain inspiration from others' Halloween costumes.
+* As a costume enthusiast, I want to showcase my own creative outfits to the community.
+* As a person with sp00ky stories and experiences, I want to share my chilling Halloween tales.
+* As a user, I want to be able to connect with the someone for any enquiries or feedback.
+* As a user, I want to experience a sp00ky aesthetic that adds to the Halloween atmosphere and enjoy an engaging and fun user interface while using the application.
+* As a parent in Dublin, I want to use the application to find family-friendly Halloween activities and events to enjoy with my children during the Halloween season.
 
 ## Structure of the website
 
