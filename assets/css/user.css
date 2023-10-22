@@ -88,6 +88,24 @@ GALLERY
   cursor: pointer;
 }
 
+/* -----------------------------------
+ANIMATINO
+------------------------------------- */
+#witch {
+  /* scale: 10%; */
+  position: relative;
+  cursor: pointer;
+  object-fit: cover;
+}
+
+#witch-box {
+  margin: 0;
+  padding: 0;
+  display: none;
+
+
+}
+
 /* ----------------------------
 MEDIA QUERIES
 -------------------------------- */
