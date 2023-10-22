@@ -251,6 +251,8 @@ Lighthouse testing came out to be at least 86 in all areas so is considered to p
 
 ## Bugs
 
+Sometimes the footer background crops partially.
+
 # Deployment
 
 1. Log into [GitHub](https://github.com/).
