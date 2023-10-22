@@ -64,22 +64,37 @@ Have a sp00ktacular time using "Witchway Tracker" and make the most of the Hallo
 * As a user, I want to experience a sp00ky aesthetic that adds to the Halloween atmosphere and enjoy an engaging and fun user interface while using the application.
 * As a parent in Dublin, I want to use the application to find family-friendly Halloween activities and events to enjoy with my children during the Halloween season.
 
+## Colour scheme
+
+![Colour scheme used](documentation/colours.png)
+
+The choice of colors for a Halloween-themed website is crucial for creating the right atmosphere and enhancing the overall user experience. Here's an explanation for why the colors you've chosen are well-suited for a Halloween website:
+
+#000 (Black):
+* Black is often associated with darkness, mystery, and the unknown, making it a perfect choice for Halloween.
+* It represents the night, which is when many Halloween events and traditions take place, such as trick-or-treating and haunted houses.
+* Black also creates a spooky and eerie backdrop, which sets the stage for the Halloween theme.
+
+#ff6100 (Pumpkin Orange):
+* Orange is closely linked to Halloween because of pumpkins, a prominent symbol of the holiday. The bright orange color of pumpkins is iconic and evokes a festive, Halloween spirit.
+* The use of a vibrant and energetic shade of orange, adds warmth and excitement to the design, reminiscent of the glowing jack-o'-lanterns that adorn Halloween celebrations.
+
+#ff8c00 (Spooky Orange):
+* This slightly darker shade of orange adds depth and contrast to the design.
+* It complements the pumpkin orange and adds a sense of warmth and energy while retaining a spooky and mysterious feel.
+
+#39ff14 (Bright Green):
+* Bright green is reminiscent of eerie, supernatural elements often associated with Halloween, like witches, monsters, and eerie creatures.
+* It contrasts well with the black background and creates a visual pop, making it an excellent choice for call-to-action buttons or highlights on the website.
+
+#fff (White):
+* White serves as a striking contrast to the other darker colors and helps maintain readability, ensuring that text and content are easily visible.
+
 ## Structure of the website
 
 The website is designed to be easy and user-friendy on all type of devices. On desktop, tablet or mobile device there should be no difference for a user to have a fantastic experience. All parts are designed to achieve maximum user satisfaction. User will get some interaction from the interface as links and buttons will have a hover effects.
 
 ## Surface
-
-### Colors
-Main colours used in a project:
-* background color: #FF8C00
-* font color: #FFFFFF
-* link color: #FF6100
-* Details: #333333
-* Details: #000000
-* Details:#39ff14
-
-![Colors](./assets/img/wireframes/color.png)
 
 ### Fonts 
 
