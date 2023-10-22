@@ -352,7 +352,7 @@ We have tested the performance in chrome, using lighthouse:
 # Deployment
 
 1. Log into [GitHub](https://github.com/).
-2. Locate the [repository](https://sasantazayoni.github.io/PhantomForge/).
+2. Locate the [repository](https://github.com/SasanTazayoni/PhantomForge).
 3. Locate the settings option along the options bar at the top of the page.
 4. Locate the 'Pages' option on the left side bar and click on it.
 5. Under the 'Branch' subheading there should be a drop-down menu - select 'Master' from the branch options.
