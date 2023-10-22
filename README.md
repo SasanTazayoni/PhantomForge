@@ -96,12 +96,12 @@ The images used in the "Witchway Tracker" app are of paramount importance as the
 
 ## Typography
 
-Headings - Creepster:
+Headings - [Creepster]():
 
 * Style: Creepy, spooky, and decorative.
 * Use: Often used for Halloween-themed or horror-related content. Its distinctive style makes it suitable for headlines and titles in designs that require a playful or spooky aesthetic.
 
-Body text - Signika Negative:
+Body text - [Signika Negative]():
 
 * Style: Clean, modern, and highly readable.
 * Use: A sans-serif font that's great for body text and general readability. It offers good legibility and is commonly used for paragraphs, articles, and other long-form text.
