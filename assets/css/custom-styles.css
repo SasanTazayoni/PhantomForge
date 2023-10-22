@@ -163,12 +163,14 @@ header {
   color: #39ff14;
   padding-right: 20px;
   margin-bottom: 10px;
+  font-size: 14px;
 }
 
 .footer-icon i {
   transition: all 0.5s;
   color: #39ff14;
-  opacity: 0.7;
+  opacity: 0.8;
+  font-size: 28px;
 }
 
 .footer-icon i:hover {
