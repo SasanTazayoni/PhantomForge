@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Creepster&family=Signika+Negative&display=swap");
+.contact-form {
+  background: linear-gradient(
+    to bottom,
+    #000000 0%,
+    #000000 50%,
+    #ff8c00 100%
+  );
+  background-image: url("../img/contactForm/contact-form-img-small.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 0;
+  color: #fff;
+}
+
+body {
+  background-color: #090a0b;
+}
+h2 {
+  font-family: Creepster;
+  color: #39ff14;
+  font-size: 60px;
+}
+
+/* ======== Media queries ======== */
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .footer-img {
+    min-height: 250px;
+  }
+  .contact-form {
+    background-image: url("../img/contactForm/contact-form-img.jpg");
+    background-size: cover;
+    background-position: right;
+  }
+}
