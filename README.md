@@ -179,7 +179,8 @@ The wireframes do not fully correspond with the end product due to multiple chan
 # Technologies used
 
 ![.](/favicon-16x16.png) HTML5 as a structure language.  
-![.](/favicon-16x16.png) CSS as a style language.  
+![.](/favicon-16x16.png) CSS as a style language.
+![.](/favicon-16x16.png) Javascript as a scripting language.
 ![.](/favicon-16x16.png) Bootstrap - Bootstrap@5.1.3 as a CSS framework to keep responsive, mobile first aproach.  
 ![.](/favicon-16x16.png) We used the "Creative" template by StartBootstrap (https://startbootstrap.com/theme/creative)  
 ![.](/favicon-16x16.png) Google fonts as a font resource.  
