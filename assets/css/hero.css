@@ -11,6 +11,7 @@ body {
   max-width: 100%;
   display: grid;
   background-color: black;
+  font-family: 'Signika Negative';
 }
 
 /* Navbar */
@@ -177,7 +178,7 @@ HERO
 .hero-section small {
   color: #ffffff;
   text-transform: uppercase;
-  font-family: 'Creepster';
+  font-family: 'Creepster', Arial, Helvetica, sans-serif;
 }
 
 .hero-section .section-overlay {
@@ -195,7 +196,6 @@ HERO
   text-align: center !important;
   font-size: 35px;
   font-family: var(--sans-font);
-  font-family: 'Creepster';
 }
 
 .text-white {
