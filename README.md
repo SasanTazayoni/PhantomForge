@@ -204,13 +204,7 @@ At the end of the project we used the following websites to validate our code:
 ![.](/favicon-16x16.png) [<span style="color:#ff6100">Nu Html Checker](https://validator.w3.org/) to test HTML  
 ![.](/favicon-16x16.png) [<span style="color:#ff6100">JavaScript validator](https://esprima.org/demo/validate.html) to test JavaScript
 
-## Testing user stories (how user stories are satisfied)
-
-![.](/favicon-16x16.png) The application is intuitive and easy to use  
-![.](/favicon-16x16.png) As a Users easily find the information they are looking for about events  
-![.](/favicon-16x16.png) As a user I have a gallery that helps me with inspiration for my costume
-
-### Tests
+## Personal Testing
 
   <details>
   <summary>General</summary>
