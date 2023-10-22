@@ -3,17 +3,19 @@ body {
   background-color:#090A0B;
 }
 h2 {
-  font-family: Creepster;
+  font-family: 'Creepster';
   color:#39FF14;
   font-size: 60px;
 }
 h4 {
-  font-family: Creepster;
+  font-family: 'Creepster';
 }
+
 p {
   font-family: 'Signika Negative';
   font-size: 20px;
 }
+
 a {
   font-family: 'Signika Negative';
   font-size: 20px;
@@ -55,9 +57,9 @@ a {
     top: 0;
     left: 0;
     width: 100%;
-    height:auto;
+    height:100%;
     object-fit: cover; 
-    opacity: 0.5; 
+    opacity: 0.23; 
     z-index: -1; 
   }
 
