@@ -112,20 +112,6 @@ Body text - [Signika Negative]():
 
 The combination of a decorative and playful font for headers (Creepster) with a clean and readable font for body text (Signika Negative) is a good choice, as it creates a contrast that enhances the overall design while maintaining readability and visual appeal.
 
-## Surface
-
-### Fonts
-
-- [<span style="color:#ff6100">CINZEL](https://fonts.google.com/specimen/Cinzel)
-- [<span style="color:#ff6100">CREEPSTER](https://fonts.google.com/specimen/Creepster?query=CREEPS)
-- [<span style="color:#ff6100">Delicious Handrawn](https://fonts.google.com/specimen/Delicious+Handrawn)
-
-### Images
-
-- I used images from [<span style="color:#ff6100">pexel.com](https://www.pexels.com/photo/photography-of-cat-at-full-moon-35888/) and there are credited in [<span style="color:#ff6100">credits](#credits) section.
-
-[<span style="color:#ff6100">Back to Table of contents](#table-of-contents)
-
 # Features
 
 The website consists of 4 pages. all are accessible from a navigation menu.
