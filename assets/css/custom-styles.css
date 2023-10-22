@@ -114,7 +114,7 @@ header {
   position: relative;
 }
 
-.glow {
+.pumpkin-glow {
   height: 30px;
   width: 30px;
   filter: drop-shadow(0 0 10px #ff8c00) drop-shadow(0 0 20px #ff8c00);

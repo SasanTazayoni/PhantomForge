@@ -112,20 +112,6 @@ Body text - [Signika Negative]():
 
 The combination of a decorative and playful font for headers (Creepster) with a clean and readable font for body text (Signika Negative) is a good choice, as it creates a contrast that enhances the overall design while maintaining readability and visual appeal.
 
-## Surface
-
-### Fonts
-
-- [<span style="color:#ff6100">CINZEL](https://fonts.google.com/specimen/Cinzel)
-- [<span style="color:#ff6100">CREEPSTER](https://fonts.google.com/specimen/Creepster?query=CREEPS)
-- [<span style="color:#ff6100">Delicious Handrawn](https://fonts.google.com/specimen/Delicious+Handrawn)
-
-### Images
-
-- I used images from [<span style="color:#ff6100">pexel.com](https://www.pexels.com/photo/photography-of-cat-at-full-moon-35888/) and there are credited in [<span style="color:#ff6100">credits](#credits) section.
-
-[<span style="color:#ff6100">Back to Table of contents](#table-of-contents)
-
 # Features
 
 The website consists of 4 pages. all are accessible from a navigation menu.
@@ -369,8 +355,6 @@ To run localy:
 - select `Code` and click Download the ZIP file.
 - after download you can extract the file and use it in your local environment
 
-## Credits
-
 - Code references: - Bootstrap theme:
   "Creative" by StartBootstrap themes @ https://startbootstrap.com/theme/creative - Media references:
   Pumpkin footer image:
@@ -386,3 +370,14 @@ To run localy:
 ![contact](./assets/img/screenshoots/Nest%20Hub-1697961992568.jpeg)
 ![events](./assets/img/screenshoots/Samsung%20Galaxy%20S20%20Ultra-1697961964626.jpeg)
 ![Home2](./assets/img/screenshoots/iPad-1697961974352.jpeg)
+
+# Credits
+
+Thanks to the Haunted Hackers team for a great experience and putting the project together:
+
+* [Fernando](https://github.com/Goncalves95)
+* [Szymon](https://github.com/ObiOne84)
+* [Emanuel](https://github.com/EmanuelGustafzon)
+* [Richard](https://github.com/richard9106)
+* [Emily](https://github.com/dragon-fire-fly)
+* [Sasan](https://github.com/SasanTazayoni)
