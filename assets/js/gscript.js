@@ -16,7 +16,7 @@
 const myCarouselElement = document.querySelector('#carouselExampleIndicators')
 const carousel = new bootstrap.Carousel(myCarouselElement, {
     ride: true,
-    interval: 2000,
+    interval: 4000,
     wrap: true
 })
 // Function to swtich on carousel
@@ -83,9 +83,9 @@ $('.img-gallery').click(function () {
     // }
 });
 
-addEventListener("resize", () => {
-    removeStcikyFooter();
-});
+// addEventListener("resize", () => {
+//     removeStcikyFooter();
+// });
 
 $('.carousel-item').on("dblclick", function () {
     closeCarousel();
