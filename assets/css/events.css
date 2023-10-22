@@ -1,65 +1,43 @@
-
-body {
-  background-color:#090A0B;
-}
-h2 {
-  font-family: Creepster;
-  color:#39FF14;
-  font-size: 60px;
-}
-h4 {
-  font-family: Creepster;
-}
-p {
-  font-family: 'Signika Negative';
-  font-size: 20px;
-}
-a {
-  font-family: 'Signika Negative';
-  font-size: 20px;
-  text-decoration: none;
-}
 .event-text {
   width: 400px;
   padding: 0 20px;
 }
 .gallery-link {
-  color: #39FF14;
+  color: #39ff14;
   transition: all 0.3s;
 }
 .gallery-link:hover {
-  color: #39FF14;
-  filter: drop-shadow(0 0 10px #39ff14) 
-          drop-shadow(0 0 20px #39ff14);
+  color: #39ff14;
+  filter: drop-shadow(0 0 10px #39ff14) drop-shadow(0 0 20px #39ff14);
 }
- #map {
+#map {
+  height: 100%;
+  width: 80%;
+  left: 10%;
+  border-radius: 5px;
+}
+@media screen and (max-width: 720px) {
+  #map {
     height: 100%;
-    width: 80%;
-    left: 10%;
-    border-radius: 5px;
-  }
-  @media screen and (max-width: 720px) {
-    #map {
-      height: 100%;
-      width: 100%;
-      left: 0;
-    }
-  }
- 
-  .relative-position {
-    position: relative;
-  }
-  
-  .overlay-image {
-    position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
-    height:auto;
-    object-fit: cover; 
-    opacity: 0.5; 
-    z-index: -1; 
+    left: 0;
   }
+}
+
+.relative-position {
+  position: relative;
+}
+
+.overlay-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.23;
+  z-index: -1;
+}
 
 @media screen and (max-width: 428px) {
   p {
@@ -80,6 +58,3 @@ a {
     font-size: 14px;
   }
 }
-  
-  
-  

@@ -90,9 +90,9 @@ The choice of colors for a Halloween-themed website is crucial for creating the 
 #fff (White):
 * White serves as a striking contrast to the other darker colors and helps maintain readability, ensuring that text and content are easily visible.
 
-## Structure of the website
+## Imagery
 
-The website is designed to be easy and user-friendy on all type of devices. On desktop, tablet or mobile device there should be no difference for a user to have a fantastic experience. All parts are designed to achieve maximum user satisfaction. User will get some interaction from the interface as links and buttons will have a hover effects.
+The images used in the "Witchway Tracker" app are of paramount importance as they serve to visually engage and immerse users in the Halloween experience. High-quality and compelling images of Halloween events, costumes, and the overall atmosphere play a crucial role in capturing the essence of the holiday. These images help users preview and understand the events, locations, and activities available in Dublin during Halloween, making informed choices about which events to attend. Additionally, user-generated costume photos in the galleries foster a sense of community and inspire creativity among costume enthusiasts. The images set the tone, build anticipation, and enhance the overall user experience, making the app more inviting and exciting for all users, whether they are local residents, tourists, costume enthusiasts, or event organisers.
 
 ## Surface
 
@@ -241,6 +241,95 @@ The website has below features:
 * As a Users easily find the information they are looking for about events
 * As a user I have a gallery that helps me with inspiration for my costume
 
+### Tests
+
+  <details>
+  <summary>General</summary>
+
+  |Action | Expected behavious | Result|
+  |-------|--------------------|-------|
+  |Copy url of the browser and paste it in browser. Press enter | Browser should load index.html | Pass |
+  |Scale up the window | The contentent should not stretch over a certain size | Pass |
+  |Scale down the window | The contentent should be visible without having to scroll horizontally | Pass |
+
+  </details>
+
+  <details>
+  <summary>Footer</summary>
+
+  |Action | Expected behavious | Result|
+  |-------|--------------------|-------|
+  |Click on the LinkedIn icon in the footer | It should open LinkedIn in a new tab | Pass |
+  |Click on the Twitter icon in the footer | It should open Facebook in a new tab | Pass |
+  |Click on the Instagram icon in the footer | It should open Facebook in a new tab | Pass |
+  |Click on the GitHub icon in the footer | It should open Facebook in a new tab | Pass |
+  |In small screens change for two lines  | Pass |
+
+  </details>
+
+  <details>
+  <summary>Pages</summary>
+
+  |Action | Expected behavious | Result|
+  |-------|--------------------|-------|
+  |When you press the button on the home page must go to events page  | Pass |
+  |When you press some image on gallery page must open a carrossel  | Pass |
+  |When the user start fill in the contact form appear is mandatory to fill in the fields | Pass |
+  |When the user click on the submit button must appear a mensage submited | Pass |
+  |When the user click on burguer nav bar must open down   | Pass |
+  |When the user click on the pages links oh nav bar going to the select page | Pass |
+
+  </details>
+
+### Performance
+
+We have tested the performance in chrome, using lighthouse:
+
+* Performance rate:
+
+   ![Performance]()
+
+<details>
+  <summary> Desktop </summary>
+  
+* Home page:
+
+   ![Desktop - home page](/assets/img/screenshoots/performer_test/hero_page_descktop.png)
+
+* Events page:
+
+   ![Desktop - events page]()
+
+* Gallery Page:
+
+   ![Desktop - gallery page]()
+
+* Contact Page:
+
+   ![Desktop - contact page](/assets/img/screenshoots/performer_test/contact_page_descktop.png)
+
+</details>
+
+<details>
+  <summary> Mobile </summary>
+  
+* Home page:
+
+   ![Mobile - home page](/assets/img/screenshoots/performer_test/hero_page_mobile.png)
+
+* Events page:
+
+   ![Mobile - events page]()
+
+* Gallery Page:
+
+   ![Mobile - gallery page]()
+
+* Contact Page:
+
+   ![Mobile - contact page](/assets/img/screenshoots/performer_test/contact_page_mobile.png)
+
+</details>
 
 ## Lighthouse testing
 
