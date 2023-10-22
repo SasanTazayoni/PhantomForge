@@ -4,8 +4,9 @@
   background-image: url("../img/footer-pumpkins.png");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: bottom;
+  background-position: center bottom;
   min-height: 150px;
+  width: 100%;
 }
 
 .footer-container {
@@ -85,9 +86,20 @@
   }
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
+/* Extra large devices (large laptops and desktops, 1400px and up) */
+@media only screen and (min-width: 1400px) {
   .footer-img {
     min-height: 350px;
+    max-width: 90%;
+    padding: 0 50;
+    margin: 0 auto;
+  }
+}
+/* Extra extra large devices (4k, 2500px and up) */
+@media only screen and (min-width: 2500px) {
+  .footer-img {
+    min-height: 350px;
+    max-width: 75%;
+    padding: 0 50;
   }
 }
