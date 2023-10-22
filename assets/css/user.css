@@ -106,20 +106,38 @@ GALLERY
 }
 
 /* -----------------------------------
-ANIMATINO
+ANIMATION
 ------------------------------------- */
-#witch {
-  /* scale: 10%; */
-  position: relative;
-  cursor: pointer;
-  object-fit: cover;
+#skeleton, #skeleton-two {
+  margin: 0;
+  padding: 0;
 }
 
-#witch-box {
+#skeleton-box {
   margin: 0;
   padding: 0;
   display: none;
 }
+
+#skeleton-box-two {
+  margin: 0;
+  padding: 0;
+  display: none;
+}
+
+#lurking {
+  margin: 0;
+  padding: 0;
+  opacity: 0.4;
+  border-radius: 50%;
+}
+
+#lurking-box {
+  margin: 0;
+  padding: 0;
+  display: none;
+}
+
 
 /* ----------------------------
 MEDIA QUERIES
