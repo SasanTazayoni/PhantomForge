@@ -1,16 +1,5 @@
 
 // -------CAROUSEL CONTROLS -----
-// function removeStcikyFooter() {
-//     let ww = document.body.clientWidth;
-//     let carousel = document.getElementById("carousel");
-//     if (ww > 768) {
-//         $('footer').removeClass('fixed-bottom');
-//     } else if (carousel.style.display === "block" && ww < 768) {
-//         $('.footer-img').addClass('fixed-bottom');
-//     } else {
-//         $('footer').removeClass('fixed-bottom');
-//     }
-// }
 
 // Bootstrap script for carousel
 const myCarouselElement = document.querySelector('#carouselExampleIndicators')
@@ -34,20 +23,6 @@ function closeCarousel() {
     $('#img-grid').css('display', 'block');
     $('#carousel').css('display', 'none');
 }
-// document.querySelectorAll(".image-holder > div > img").forEach(img => img.addEventListener("click", getSrc, false));
-
-// let images = document.querySelectorAll(".carousel-inner > div > img").forEach(img => console.log(img.src);
-
-// for (img of images) {
-//     console.log(img.src);
-// }
-
-// function getSrc() {
-//     alert("Hej");
-//     return this.src;
-// }
-
-// console.log(image);
 
 // ----EVENT LISTENERS
 $('#switch').click(function () {
@@ -58,6 +33,7 @@ $('#switch').click(function () {
         activateCarousel();
     }
 });
+
 
 // function to get src of carouse images
 function imgFind() {
@@ -71,21 +47,13 @@ function imgFind() {
     return imgSrcs;
 }
 
+
 $('.img-gallery').click(function () {
+
     activateCarousel();
-    // let image = this.src;
-    // let srcs = imgFind();
-    // for (src of srcs) {
-    //     if (src == image) {
-    //         alert("Hej");
-    //         $('img').parent().addClass("active");
-    //     }
-    // }
+
 });
 
-// addEventListener("resize", () => {
-//     removeStcikyFooter();
-// });
 
 $('.carousel-item').on("dblclick", function () {
     closeCarousel();
