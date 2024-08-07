@@ -2,6 +2,8 @@
 
 # Witchway Tracker - Halloween Events Locator
 
+![HTML](tech/html.png) ![CSS](tech/css.png) ![Javascript](tech/javascript.png)
+
 ## Overview
 
 "Witchway Tracker" is a responsive web application developed by the Haunted Hackers team during a hackathon. This Halloween-themed app is designed to help users locate and explore nearby Halloween events in the Dublin area. With its interactive features and sp00ky aesthetic effects, "Witchway Tracker" aims to provide a fun and informative experience for Halloween enthusiasts.
