@@ -2,7 +2,7 @@
 
 # Witchway Tracker - Halloween Events Locator
 
-![HTML](tech/html.png) ![CSS](tech/css.png) ![Javascript](tech/javascript.png) ![Boostrap](tech/bootstrap.png)
+![HTML](tech/html.png) ![CSS](tech/css.png) ![Javascript](tech/javascript.png) ![Boostrap](tech/bootstrap.png) ![Gitpod](tech/gitpod.png) ![Git](tech/git.png)
 
 ## Overview
 
